@@ -85,7 +85,7 @@ public class DeCryptoFile extends JFrame {
 		
 		JLabel label = new JLabel("\u8BF7\u8F93\u5165\u89E3\u5BC6\u6587\u4EF6\uFF1A");
 		label.setForeground(new Color(30, 144, 255));
-		label.setFont(new Font("Á¥Êé", Font.PLAIN, 24));
+		label.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 24));
 		label.setBounds(50, 74, 244, 39);
 		contentPane.add(label);
 		
@@ -99,7 +99,7 @@ public class DeCryptoFile extends JFrame {
 		btnFilePathButton.setBackground(new Color(220, 220, 220));
 		btnFilePathButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				JFileChooser fileChooser  =new JFileChooser("²âÊÔ\\¼ÓÃÜ²âÊÔ");
+				JFileChooser fileChooser  =new JFileChooser("æµ‹è¯•\\åŠ å¯†æµ‹è¯•");
 				if(fileChooser.showOpenDialog(null)==JFileChooser.APPROVE_OPTION)
 				{
 					textFieldFilePath.setText(fileChooser.getSelectedFile().getPath());
@@ -112,7 +112,7 @@ public class DeCryptoFile extends JFrame {
 		
 		JLabel label_1 = new JLabel("\u8BF7\u9009\u62E9\u52A0\u5BC6\u7B97\u6CD5\uFF1A");
 		label_1.setForeground(new Color(30, 144, 255));
-		label_1.setFont(new Font("Á¥Êé", Font.PLAIN, 24));
+		label_1.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 24));
 		label_1.setBounds(50, 169, 244, 39);
 		contentPane.add(label_1);
 		
@@ -134,7 +134,7 @@ public class DeCryptoFile extends JFrame {
 			}
 		});
 		rdbtnAes.setForeground(new Color(47, 79, 79));
-		rdbtnAes.setFont(new Font("Î¢ÈíÑÅºÚ", Font.BOLD, 18));
+		rdbtnAes.setFont(new Font("å¾®è½¯é›…é»‘", Font.BOLD, 18));
 		rdbtnAes.setBounds(349, 183, 77, 23);
 		contentPane.add(rdbtnAes);
 		
@@ -149,13 +149,13 @@ public class DeCryptoFile extends JFrame {
 			}
 		});
 		rdbtndes.setForeground(new Color(0, 128, 128));
-		rdbtndes.setFont(new Font("Î¢ÈíÑÅºÚ", Font.BOLD, 18));
+		rdbtndes.setFont(new Font("å¾®è½¯é›…é»‘", Font.BOLD, 18));
 		rdbtndes.setBounds(454, 183, 77, 23);
 		contentPane.add(rdbtndes);
 		
 		JLabel lblaes = new JLabel("\u52A0\u5BC6\u5F3A\u5EA6\uFF08\u5BF9\u5E94AES\uFF09\uFF1A");
 		lblaes.setForeground(new Color(30, 144, 255));
-		lblaes.setFont(new Font("Á¥Êé", Font.PLAIN, 22));
+		lblaes.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 22));
 		lblaes.setBounds(50, 212, 273, 39);
 		contentPane.add(lblaes);
 		
@@ -169,25 +169,25 @@ public class DeCryptoFile extends JFrame {
 		
 		JLabel label_2 = new JLabel("\u8BF7\u8F93\u5165\u5BC6\u7801\uFF1A");
 		label_2.setForeground(new Color(30, 144, 255));
-		label_2.setFont(new Font("Á¥Êé", Font.PLAIN, 24));
+		label_2.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 24));
 		label_2.setBounds(50, 285, 244, 39);
 		contentPane.add(label_2);
 		
 		JLabel lblbit = new JLabel("\u4E00\u822C\uFF08128bit\uFF09");
 		lblbit.setForeground(new Color(100, 149, 237));
-		lblbit.setFont(new Font("»ªÎÄÁ¥Êé", Font.PLAIN, 12));
+		lblbit.setFont(new Font("åæ–‡éš¶ä¹¦", Font.PLAIN, 12));
 		lblbit.setBounds(341, 259, 84, 15);
 		contentPane.add(lblbit);
 		
 		JLabel lblbit_1 = new JLabel("\u5F3A\uFF08192bit\uFF09");
 		lblbit_1.setForeground(new Color(100, 149, 237));
-		lblbit_1.setFont(new Font("»ªÎÄÁ¥Êé", Font.PLAIN, 12));
+		lblbit_1.setFont(new Font("åæ–‡éš¶ä¹¦", Font.PLAIN, 12));
 		lblbit_1.setBounds(426, 259, 84, 15);
 		contentPane.add(lblbit_1);
 		
 		JLabel lblbit_2 = new JLabel("\u5F88\u5F3A\uFF08256bit\uFF09");
 		lblbit_2.setForeground(new Color(100, 149, 237));
-		lblbit_2.setFont(new Font("»ªÎÄÁ¥Êé", Font.PLAIN, 12));
+		lblbit_2.setFont(new Font("åæ–‡éš¶ä¹¦", Font.PLAIN, 12));
 		lblbit_2.setBounds(520, 259, 84, 15);
 		contentPane.add(lblbit_2);
 		
@@ -216,44 +216,44 @@ public class DeCryptoFile extends JFrame {
 						      
 							if(rdbtnAes.isSelected())
 							{
-								//¶ÁÈ¡IVÖµ
+								//è¯»å–IVå€¼
 					        byte[] ivvalue=new byte[16];
 					        fis.read(ivvalue);
 							IvParameterSpec iv=new IvParameterSpec(ivvalue);
 							
-							//´´½¨ÃÜÔ¿£»
+							//åˆ›å»ºå¯†é’¥ï¼›
 							MessageDigest md;
 							md = MessageDigest.getInstance("SHA3-256");
 							byte[] hashvalue=md.digest(password.getBytes());
 							
-							SecretKeySpec key256=new SecretKeySpec(hashvalue, 0,32,"AES");  //Éú³ÉÈı¸ö²»Í¬³¤¶ÈµÄÃÜÔ¿¶ÔÏó
+							SecretKeySpec key256=new SecretKeySpec(hashvalue, 0,32,"AES");  //ç”Ÿæˆä¸‰ä¸ªä¸åŒé•¿åº¦çš„å¯†é’¥å¯¹è±¡
 							SecretKeySpec key192=new SecretKeySpec(hashvalue, 0,24,"AES");
 							SecretKeySpec key128=new SecretKeySpec(hashvalue, 0,16,"AES");
 							
-							//½âÃÜ
+							//è§£å¯†
 							Cipher cipher=Cipher.getInstance("AES/OFB/PKCS5Padding");
 							
-							if(slider.getValue()==30)                      //ÅĞ¶Ï¼ÓÃÜÇ¿¶ÈÓÃ²»Í¬³¤¶ÈÃÜÔ¿Éú³É½âÃÜ¶ÔÏó
+							if(slider.getValue()==30)                      //åˆ¤æ–­åŠ å¯†å¼ºåº¦ç”¨ä¸åŒé•¿åº¦å¯†é’¥ç”Ÿæˆè§£å¯†å¯¹è±¡
 							{
-								encryptName=encryptName+"½âÃÜAES(Ò»°ã)enc."+filepostfix;
+								encryptName=encryptName+"è§£å¯†AES(ä¸€èˆ¬)enc."+filepostfix;
 								cipher.init(Cipher.DECRYPT_MODE, key128,iv);
 							}
 							
 							if(slider.getValue()==60)
 							{
-								encryptName=encryptName+"½âÃÜAES(Ç¿)enc."+filepostfix;
+								encryptName=encryptName+"è§£å¯†AES(å¼º)enc."+filepostfix;
 								cipher.init(Cipher.DECRYPT_MODE, key192,iv);
 							}
 							
 							if(slider.getValue()==90)
 							{
-								encryptName=encryptName+"½âÃÜAES(ºÜÇ¿)enc."+filepostfix;
+								encryptName=encryptName+"è§£å¯†AES(å¾ˆå¼º)enc."+filepostfix;
 								cipher.init(Cipher.DECRYPT_MODE, key256,iv);
 							}
-							//ÎÄ¼şÊä³öÁ÷
+							//æ–‡ä»¶è¾“å‡ºæµ
 							FileOutputStream fos=new FileOutputStream(encryptName);
 							
-							//´´½¨¼Ó½âÃÜÊäÈëÁ÷
+							//åˆ›å»ºåŠ è§£å¯†è¾“å…¥æµ
 							CipherInputStream cis=new CipherInputStream(fis, cipher);
 							byte[] buffer=new byte[1024];
 							int n=0;
@@ -263,33 +263,33 @@ public class DeCryptoFile extends JFrame {
 							}
 							fos.close();
 							cis.close();
-							JOptionPane.showMessageDialog(null, "½âÃÜ³É¹¦£¡(½âÃÜÎÄ¼ş´æ·ÅÓÚÔ­ÎÄ¼şÄ¿Â¼ÏÂ)");
+							JOptionPane.showMessageDialog(null, "è§£å¯†æˆåŠŸï¼(è§£å¯†æ–‡ä»¶å­˜æ”¾äºåŸæ–‡ä»¶ç›®å½•ä¸‹)");
 							}
 						
 							
-							//3DES½âÃÜ
+							//3DESè§£å¯†
 							if(rdbtndes.isSelected())
 					 {
 								
-						//¶ÁÈ¡IVÖµ
+						//è¯»å–IVå€¼
 					     byte[] ivvalue=new byte[8];
 					     fis.read(ivvalue);
 						 IvParameterSpec iv=new IvParameterSpec(ivvalue);
-						    //´´½¨ÃÜÔ¿£»
+						    //åˆ›å»ºå¯†é’¥ï¼›
 							MessageDigest md;
 							md = MessageDigest.getInstance("SHA3-256");
 							byte[] hashvalue=md.digest(password.getBytes());
 							
-							SecretKeySpec key3DES=new SecretKeySpec(hashvalue, 0,24,"DESede");  //Éú³ÉÃÜÔ¿¶ÔÏó
+							SecretKeySpec key3DES=new SecretKeySpec(hashvalue, 0,24,"DESede");  //ç”Ÿæˆå¯†é’¥å¯¹è±¡
 							
-							//¼ÓÃÜ¶ÔÏó
+							//åŠ å¯†å¯¹è±¡
 							Cipher cipher=Cipher.getInstance("DESede/CBC/PKCS5Padding");
 							cipher.init(Cipher.DECRYPT_MODE, key3DES,iv);  
-							encryptName=encryptName+"½âÃÜ3DES."+filepostfix;			
-							//ÎÄ¼şÊäÈëÊä³öÁ÷
+							encryptName=encryptName+"è§£å¯†3DES."+filepostfix;			
+							//æ–‡ä»¶è¾“å…¥è¾“å‡ºæµ
 							FileOutputStream fos=new FileOutputStream(encryptName);
 
-							//´´½¨¼Ó½âÃÜÊäÈëÁ÷
+							//åˆ›å»ºåŠ è§£å¯†è¾“å…¥æµ
 							CipherInputStream cis=new CipherInputStream(fis, cipher);
 							byte[] buffer=new byte[4096];
 							int n=0;
@@ -299,22 +299,22 @@ public class DeCryptoFile extends JFrame {
 							}
 							fos.close();
 							cis.close();
-							JOptionPane.showMessageDialog(null, "½âÃÜ³É¹¦£¡(½âÃÜÎÄ¼ş´æ·ÅÓÚÔ­ÎÄ¼şÄ¿Â¼ÏÂ)");
+							JOptionPane.showMessageDialog(null, "è§£å¯†æˆåŠŸï¼(è§£å¯†æ–‡ä»¶å­˜æ”¾äºåŸæ–‡ä»¶ç›®å½•ä¸‹)");
 					 }
 							
 						}
 						else{
-							JOptionPane.showMessageDialog(null, "ÎÄ¼ş²»·ûºÏ¼ÓÃÜÎÄ¼ş¹æ·¶£¬Çë¼ì²é£¡");
+							JOptionPane.showMessageDialog(null, "æ–‡ä»¶ä¸ç¬¦åˆåŠ å¯†æ–‡ä»¶è§„èŒƒï¼Œè¯·æ£€æŸ¥ï¼");
 						}
 				} catch (InvalidKeyException e1) {
 					// TODO Auto-generated catch block
-					JOptionPane.showMessageDialog(null, "IV ³õÊ¼ÏòÁ¿¶ÁÈ¡³ö´í£¡");
+					JOptionPane.showMessageDialog(null, "IV åˆå§‹å‘é‡è¯»å–å‡ºé”™ï¼");
 				} catch (HeadlessException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
 				} catch (FileNotFoundException e1) {
 					// TODO Auto-generated catch block
-					JOptionPane.showMessageDialog(null, "ÎÄ¼ş¶ÁÈ¡³ö´í£¡");
+					JOptionPane.showMessageDialog(null, "æ–‡ä»¶è¯»å–å‡ºé”™ï¼");
 				} catch (NoSuchAlgorithmException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
@@ -326,7 +326,7 @@ public class DeCryptoFile extends JFrame {
 					e1.printStackTrace();
 				} catch (IOException e1) {
 					// TODO Auto-generated catch block
-					JOptionPane.showMessageDialog(null, "ÃÜÂëÊäÈëÓĞÎó»òÃÜÂëÎÄ¼ş²»Æ¥Åä£¡½âÃÜÊ§°Ü");
+					JOptionPane.showMessageDialog(null, "å¯†ç è¾“å…¥æœ‰è¯¯æˆ–å¯†ç æ–‡ä»¶ä¸åŒ¹é…ï¼è§£å¯†å¤±è´¥");
 				}
 								
 			}
@@ -334,7 +334,7 @@ public class DeCryptoFile extends JFrame {
 		btnDeCryptoButton.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 		btnDeCryptoButton.setBackground(new Color(220, 220, 220));
 		btnDeCryptoButton.setForeground(new Color(30, 144, 255));
-		btnDeCryptoButton.setFont(new Font("Á¥Êé", Font.PLAIN, 30));
+		btnDeCryptoButton.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 30));
 		btnDeCryptoButton.setBounds(165, 410, 165, 39);
 		contentPane.add(btnDeCryptoButton);
 		
@@ -353,7 +353,7 @@ public class DeCryptoFile extends JFrame {
 		button.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 		button.setBackground(SystemColor.menu);
 		button.setForeground(SystemColor.activeCaption);
-		button.setFont(new Font("Á¥Êé", Font.PLAIN, 20));
+		button.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 20));
 		button.setBounds(437, 420, 113, 31);
 		contentPane.add(button);
 	}

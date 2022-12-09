@@ -77,7 +77,7 @@ public class MACValue extends JFrame {
 		
 		JLabel lblmac = new JLabel("\u8BF7\u8F93\u5165\u9700\u8981\u8BA1\u7B97MAC\u7801\u7684\u5B57\u7B26\u4E32\uFF1A");
 		lblmac.setForeground(new Color(0, 139, 139));
-		lblmac.setFont(new Font("Á¥Êé", Font.PLAIN, 26));
+		lblmac.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 26));
 		lblmac.setBounds(24, 68, 436, 46);
 		contentPane.add(lblmac);
 		
@@ -88,7 +88,7 @@ public class MACValue extends JFrame {
 		
 		JLabel label = new JLabel("\u8BF7\u8F93\u5165\u4F60\u7684\u5BC6\u7801\uFF1A\uFF086-16\u4F4D\uFF09");
 		label.setForeground(new Color(0, 139, 139));
-		label.setFont(new Font("Á¥Êé", Font.PLAIN, 26));
+		label.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 26));
 		label.setBounds(27, 156, 367, 46);
 		contentPane.add(label);
 		
@@ -98,7 +98,7 @@ public class MACValue extends JFrame {
 		
 		JLabel label_1 = new JLabel("\u8BF7\u518D\u6B21\u8F93\u5165\u5BC6\u7801\uFF1A");
 		label_1.setForeground(new Color(0, 139, 139));
-		label_1.setFont(new Font("Á¥Êé", Font.PLAIN, 26));
+		label_1.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 26));
 		label_1.setBounds(24, 243, 367, 46);
 		contentPane.add(label_1);
 		
@@ -108,7 +108,7 @@ public class MACValue extends JFrame {
 		
 		JLabel label_2 = new JLabel("\u8BF7\u9009\u62E9\u91C7\u7528\u7684\u7B97\u6CD5\uFF1A");
 		label_2.setForeground(new Color(0, 139, 139));
-		label_2.setFont(new Font("Á¥Êé", Font.PLAIN, 26));
+		label_2.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 26));
 		label_2.setBounds(21, 333, 367, 46);
 		contentPane.add(label_2);
 		
@@ -134,7 +134,7 @@ public class MACValue extends JFrame {
 		});
 		chckbxHmacMD5.setForeground(new Color(178, 34, 34));
 		chckbxHmacMD5.setSelected(true);
-		chckbxHmacMD5.setFont(new Font("Î¢ÈíÑÅºÚ", Font.BOLD, 18));
+		chckbxHmacMD5.setFont(new Font("å¾®è½¯é›…é»‘", Font.BOLD, 18));
 		chckbxHmacMD5.setBounds(32, 390, 146, 31);
 		contentPane.add(chckbxHmacMD5);
 		
@@ -151,7 +151,7 @@ public class MACValue extends JFrame {
 			}
 		});
 		chckbxHmacSHA1.setForeground(new Color(255, 165, 0));
-		chckbxHmacSHA1.setFont(new Font("Î¢ÈíÑÅºÚ", Font.BOLD, 18));
+		chckbxHmacSHA1.setFont(new Font("å¾®è½¯é›…é»‘", Font.BOLD, 18));
 		chckbxHmacSHA1.setBounds(217, 390, 146, 31);
 		contentPane.add(chckbxHmacSHA1);
 		
@@ -168,7 +168,7 @@ public class MACValue extends JFrame {
 			}
 		});
 		chckbxHmacSHA256.setForeground(new Color(123, 104, 238));
-		chckbxHmacSHA256.setFont(new Font("Î¢ÈíÑÅºÚ", Font.BOLD, 18));
+		chckbxHmacSHA256.setFont(new Font("å¾®è½¯é›…é»‘", Font.BOLD, 18));
 		chckbxHmacSHA256.setBounds(397, 390, 187, 31);
 		contentPane.add(chckbxHmacSHA256);
 		
@@ -185,7 +185,7 @@ public class MACValue extends JFrame {
 			}
 		});
 		chckbxHmacMD2.setForeground(new Color(255, 99, 71));
-		chckbxHmacMD2.setFont(new Font("Î¢ÈíÑÅºÚ", Font.BOLD, 18));
+		chckbxHmacMD2.setFont(new Font("å¾®è½¯é›…é»‘", Font.BOLD, 18));
 		chckbxHmacMD2.setBounds(32, 444, 146, 31);
 		contentPane.add(chckbxHmacMD2);
 		
@@ -202,7 +202,7 @@ public class MACValue extends JFrame {
 			}
 		});
 		chckbxHmacMD4.setForeground(new Color(46, 139, 87));
-		chckbxHmacMD4.setFont(new Font("Î¢ÈíÑÅºÚ", Font.BOLD, 18));
+		chckbxHmacMD4.setFont(new Font("å¾®è½¯é›…é»‘", Font.BOLD, 18));
 		chckbxHmacMD4.setBounds(217, 444, 146, 31);
 		contentPane.add(chckbxHmacMD4);
 		
@@ -219,18 +219,18 @@ public class MACValue extends JFrame {
 			}
 		});
 		chckbxHmacripeMD128.setForeground(new Color(135, 206, 235));
-		chckbxHmacripeMD128.setFont(new Font("Î¢ÈíÑÅºÚ", Font.BOLD, 18));
+		chckbxHmacripeMD128.setFont(new Font("å¾®è½¯é›…é»‘", Font.BOLD, 18));
 		chckbxHmacripeMD128.setBounds(397, 444, 189, 31);
 		contentPane.add(chckbxHmacripeMD128);
 		
 		JLabel lblmac_1 = new JLabel("\u8BE5\u5B57\u7B26\u4E32\u7684MAC\u7801\uFF1A");
 		lblmac_1.setForeground(new Color(0, 139, 139));
-		lblmac_1.setFont(new Font("Á¥Êé", Font.PLAIN, 26));
+		lblmac_1.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 26));
 		lblmac_1.setBounds(27, 481, 367, 46);
 		contentPane.add(lblmac_1);
 		
 		textFieldMACValue = new JTextField();
-		textFieldMACValue.setFont(new Font("Î¢ÈíÑÅºÚ", Font.PLAIN, 10));
+		textFieldMACValue.setFont(new Font("å¾®è½¯é›…é»‘", Font.PLAIN, 10));
 		textFieldMACValue.setBounds(23, 533, 593, 30);
 		contentPane.add(textFieldMACValue);
 		textFieldMACValue.setColumns(10);
@@ -250,17 +250,17 @@ public class MACValue extends JFrame {
 				   String password=new String(password1);
 				   MessageDigest md;
 					md = MessageDigest.getInstance("SHA3-256");
-					byte[] hashvalue=md.digest(password.getBytes());     //¹¹½¨ÃÜÂëÕªÒª
+					byte[] hashvalue=md.digest(password.getBytes());     //æ„å»ºå¯†ç æ‘˜è¦
 					
 					if(chckbxHmacMD2.isSelected())
 					{
 						SecretKeySpec keySpec=new SecretKeySpec(hashvalue, "HmacMD2");
 						
-						Mac mac=Mac.getInstance("HmacMD2");           //MAC¶ÔÏó
+						Mac mac=Mac.getInstance("HmacMD2");           //MACå¯¹è±¡
 						
-						mac.init(keySpec);                //ÃÜÔ¿³õÊ¼»¯
+						mac.init(keySpec);                //å¯†é’¥åˆå§‹åŒ–
 						
-						macValue=mac.doFinal(string.getBytes()); //¼ÆËãmacÂëÖµ
+						macValue=mac.doFinal(string.getBytes()); //è®¡ç®—macç å€¼
 						textFieldMACValue.setText(Hex.toHexString(macValue).toUpperCase());
 					}
 					
@@ -324,7 +324,7 @@ public class MACValue extends JFrame {
 				e1.printStackTrace();
 			} catch (NoSuchAlgorithmException e1) {
 				// TODO Auto-generated catch block
-				JOptionPane.showMessageDialog(null, "Ëã·¨Ãû³ö´í£¡");
+				JOptionPane.showMessageDialog(null, "ç®—æ³•åå‡ºé”™ï¼");
 				e1.printStackTrace();
 			} catch (IllegalStateException e1) {
 				// TODO Auto-generated catch block
@@ -332,7 +332,7 @@ public class MACValue extends JFrame {
 			}
 		   }
 		   else{
-				JOptionPane.showMessageDialog(null, "Á½´ÎÊäÈëµÄÃÜÂë²»Ò»ÖÂ£¬ÇëÖØĞÂÊäÈë");
+				JOptionPane.showMessageDialog(null, "ä¸¤æ¬¡è¾“å…¥çš„å¯†ç ä¸ä¸€è‡´ï¼Œè¯·é‡æ–°è¾“å…¥");
 		   }
 					
 			}
@@ -340,7 +340,7 @@ public class MACValue extends JFrame {
 		buttonCalculate.setBackground(new Color(220, 220, 220));
 		buttonCalculate.setForeground(new Color(0, 128, 128));
 		buttonCalculate.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-		buttonCalculate.setFont(new Font("Á¥Êé", Font.BOLD, 26));
+		buttonCalculate.setFont(new Font("éš¶ä¹¦", Font.BOLD, 26));
 		buttonCalculate.setBounds(54, 585, 155, 46);
 		contentPane.add(buttonCalculate);
 		
@@ -353,7 +353,7 @@ public class MACValue extends JFrame {
 		buttonBack.setBackground(new Color(245, 245, 245));
 		buttonBack.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 		buttonBack.setForeground(new Color(95, 158, 160));
-		buttonBack.setFont(new Font("Á¥Êé", Font.PLAIN, 22));
+		buttonBack.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 22));
 		buttonBack.setBounds(369, 595, 117, 37);
 		contentPane.add(buttonBack);
 	}

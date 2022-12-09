@@ -70,7 +70,7 @@ public class CryptologyGUI extends JFrame {
 		setResizable(false);
 		setBackground(SystemColor.activeCaption);
 		setType(Type.POPUP);
-		setFont(new Font("隶书", Font.PLAIN, 18));
+		setFont(new Font("闅朵功", Font.PLAIN, 18));
 		setTitle("\u5BC6\u7801\u5B66\u52A9\u624B");
 		setIconImage(Toolkit.getDefaultToolkit().getImage("t01d065a20589e6ac3c.png"));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -86,7 +86,7 @@ public class CryptologyGUI extends JFrame {
 		
 		JLabel label = new JLabel("\u5BC6\u7801\u5B66\u52A9\u624B");
 		label.setForeground(new Color(100, 149, 237));
-		label.setFont(new Font("华文隶书", Font.PLAIN, 40));
+		label.setFont(new Font("鍗庢枃闅朵功", Font.PLAIN, 40));
 		label.setBounds(262, 10, 233, 98);
 		contentPane.add(label);
 		
@@ -99,7 +99,7 @@ public class CryptologyGUI extends JFrame {
 		btnEnCryptoButton.setDoubleBuffered(true);
 		btnEnCryptoButton.setBorder(new SoftBevelBorder(BevelBorder.RAISED, new Color(30, 144, 255), new Color(135, 206, 250), new Color(30, 144, 255), new Color(135, 206, 235)));
 		btnEnCryptoButton.setBackground(SystemColor.controlHighlight);
-		btnEnCryptoButton.setFont(new Font("隶书", Font.PLAIN, 25));
+		btnEnCryptoButton.setFont(new Font("闅朵功", Font.PLAIN, 25));
 		btnEnCryptoButton.setForeground(new Color(30, 144, 255));
 		btnEnCryptoButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -124,7 +124,7 @@ public class CryptologyGUI extends JFrame {
 		});
 		btnDecrypto.setMnemonic(KeyEvent.VK_FIND);
 		btnDecrypto.setForeground(new Color(30, 144, 255));
-		btnDecrypto.setFont(new Font("隶书", Font.PLAIN, 25));
+		btnDecrypto.setFont(new Font("闅朵功", Font.PLAIN, 25));
 		btnDecrypto.setFocusable(false);
 		btnDecrypto.setFocusTraversalKeysEnabled(false);
 		btnDecrypto.setFocusPainted(false);
@@ -146,7 +146,7 @@ public class CryptologyGUI extends JFrame {
 		});
 		btnSignature.setMnemonic(KeyEvent.VK_FIND);
 		btnSignature.setForeground(new Color(30, 144, 255));
-		btnSignature.setFont(new Font("隶书", Font.PLAIN, 25));
+		btnSignature.setFont(new Font("闅朵功", Font.PLAIN, 25));
 		btnSignature.setFocusable(false);
 		btnSignature.setFocusTraversalKeysEnabled(false);
 		btnSignature.setFocusPainted(false);
@@ -168,7 +168,7 @@ public class CryptologyGUI extends JFrame {
 		});
 		btnVerifySignature.setMnemonic(KeyEvent.VK_FIND);
 		btnVerifySignature.setForeground(new Color(30, 144, 255));
-		btnVerifySignature.setFont(new Font("隶书", Font.PLAIN, 25));
+		btnVerifySignature.setFont(new Font("闅朵功", Font.PLAIN, 25));
 		btnVerifySignature.setFocusable(false);
 		btnVerifySignature.setFocusTraversalKeysEnabled(false);
 		btnVerifySignature.setFocusPainted(false);
@@ -190,7 +190,7 @@ public class CryptologyGUI extends JFrame {
 		btnMac.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 		btnMac.setMnemonic(KeyEvent.VK_FIND);
 		btnMac.setForeground(new Color(30, 144, 255));
-		btnMac.setFont(new Font("隶书", Font.PLAIN, 25));
+		btnMac.setFont(new Font("闅朵功", Font.PLAIN, 25));
 		btnMac.setFocusable(false);
 		btnMac.setFocusTraversalKeysEnabled(false);
 		btnMac.setFocusPainted(false);
@@ -212,7 +212,7 @@ public class CryptologyGUI extends JFrame {
 		btnVerifyMAC.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 		btnVerifyMAC.setMnemonic(KeyEvent.VK_FIND);
 		btnVerifyMAC.setForeground(new Color(30, 144, 255));
-		btnVerifyMAC.setFont(new Font("隶书", Font.PLAIN, 25));
+		btnVerifyMAC.setFont(new Font("闅朵功", Font.PLAIN, 25));
 		btnVerifyMAC.setFocusable(false);
 		btnVerifyMAC.setFocusTraversalKeysEnabled(false);
 		btnVerifyMAC.setFocusPainted(false);
@@ -226,7 +226,7 @@ public class CryptologyGUI extends JFrame {
 		btnAESProperty.setCursor(Cursor.getPredefinedCursor(Cursor.DEFAULT_CURSOR));
 		btnAESProperty.setMnemonic(KeyEvent.VK_FIND);
 		btnAESProperty.setForeground(new Color(30, 144, 255));
-		btnAESProperty.setFont(new Font("隶书", Font.PLAIN, 25));
+		btnAESProperty.setFont(new Font("闅朵功", Font.PLAIN, 25));
 		btnAESProperty.setFocusable(false);
 		btnAESProperty.setFocusTraversalKeysEnabled(false);
 		btnAESProperty.setFocusPainted(false);
@@ -240,7 +240,7 @@ public class CryptologyGUI extends JFrame {
 		btnHashProperty.setCursor(Cursor.getPredefinedCursor(Cursor.DEFAULT_CURSOR));
 		btnHashProperty.setMnemonic(KeyEvent.VK_FIND);
 		btnHashProperty.setForeground(new Color(30, 144, 255));
-		btnHashProperty.setFont(new Font("隶书", Font.PLAIN, 25));
+		btnHashProperty.setFont(new Font("闅朵功", Font.PLAIN, 25));
 		btnHashProperty.setFocusable(false);
 		btnHashProperty.setFocusTraversalKeysEnabled(false);
 		btnHashProperty.setFocusPainted(false);
@@ -261,13 +261,13 @@ public class CryptologyGUI extends JFrame {
 		
 		JLabel lblAbout = new JLabel("About");
 		lblAbout.setForeground(new Color(100, 149, 237));
-		lblAbout.setFont(new Font("微软雅黑", Font.PLAIN, 18));
+		lblAbout.setFont(new Font("寰蒋闆呴粦", Font.PLAIN, 18));
 		lblAbout.setBounds(341, 570, 75, 27);
 		contentPane.add(lblAbout);
 		
 		JLabel lblNewLabel = new JLabel("Cryptographic assistant  2017  By Suguoyu");
 		lblNewLabel.setForeground(new Color(100, 149, 237));
-		lblNewLabel.setFont(new Font("微软雅黑", Font.PLAIN, 16));
+		lblNewLabel.setFont(new Font("寰蒋闆呴粦", Font.PLAIN, 16));
 		lblNewLabel.setBounds(223, 595, 342, 27);
 		contentPane.add(lblNewLabel);
 		
@@ -283,7 +283,7 @@ public class CryptologyGUI extends JFrame {
 		});
 		btnHashValue.setMnemonic(KeyEvent.VK_FIND);
 		btnHashValue.setForeground(new Color(30, 144, 255));
-		btnHashValue.setFont(new Font("隶书", Font.PLAIN, 25));
+		btnHashValue.setFont(new Font("闅朵功", Font.PLAIN, 25));
 		btnHashValue.setFocusable(false);
 		btnHashValue.setFocusTraversalKeysEnabled(false);
 		btnHashValue.setFocusPainted(false);

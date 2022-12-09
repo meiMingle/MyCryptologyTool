@@ -117,7 +117,7 @@ public class SignatureFile extends JFrame {
 		
 		JLabel label = new JLabel("\u8BF7\u9009\u62E9\u9700\u8981\u7B7E\u540D\u7684\u6587\u4EF6\uFF1A");
 		label.setForeground(new Color(135, 206, 235));
-		label.setFont(new Font("Á¥Êé", Font.PLAIN, 24));
+		label.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 24));
 		label.setBounds(43, 57, 274, 40);
 		contentPane.add(label);
 		
@@ -131,7 +131,7 @@ public class SignatureFile extends JFrame {
 		btnFilePathButton.setBackground(SystemColor.control);
 		btnFilePathButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				JFileChooser fileChooser  =new JFileChooser("²âÊÔ\\Ç©Ãû²âÊÔ");
+				JFileChooser fileChooser  =new JFileChooser("æµ‹è¯•\\ç­¾åæµ‹è¯•");
 				if(fileChooser.showOpenDialog(null)==JFileChooser.APPROVE_OPTION)
 				{
 					textFieldFilePath.setText(fileChooser.getSelectedFile().getPath());
@@ -144,19 +144,19 @@ public class SignatureFile extends JFrame {
 		
 		JLabel label_1 = new JLabel("\u5728\u6B64\u4E4B\u524D\u751F\u6210\u4E00\u5BF9\u5C5E\u4E8E\u4F60\u7684\u5BC6\u94A5\u5BF9\u548C\u516C\u94A5\u6570\u5B57\u8BC1\u4E66\uFF1A");
 		label_1.setForeground(new Color(135, 206, 235));
-		label_1.setFont(new Font("Á¥Êé", Font.PLAIN, 20));
+		label_1.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 20));
 		label_1.setBounds(30, 270, 545, 31);
 		contentPane.add(label_1);
 		
 		JLabel lblyourkeystorekeystoreyour = new JLabel("\uFF08\u751F\u6210\u7684\u5BC6\u94A5\u5BF9\u548C\u516C\u94A5\u6570\u5B57\u8BC1\u4E66\u5B58\u5728\u7B7E\u540D\u6587\u4EF6\u76EE\u5F55\u4E0B\u7684YourKeyStore.keystore\u548CYourSign.cer\u4E2D\uFF09");
 		lblyourkeystorekeystoreyour.setForeground(new Color(135, 206, 235));
-		lblyourkeystorekeystoreyour.setFont(new Font("Á¥Êé", Font.BOLD, 16));
+		lblyourkeystorekeystoreyour.setFont(new Font("éš¶ä¹¦", Font.BOLD, 16));
 		lblyourkeystorekeystoreyour.setBounds(20, 301, 760, 19);
 		contentPane.add(lblyourkeystorekeystoreyour);
 		
 		JLabel label_2 = new JLabel("\u8BF7\u9009\u62E9\u7B7E\u540D\u7B97\u6CD5\uFF1A");
 		label_2.setForeground(new Color(135, 206, 235));
-		label_2.setFont(new Font("Á¥Êé", Font.PLAIN, 24));
+		label_2.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 24));
 		label_2.setBounds(43, 150, 202, 40);
 		contentPane.add(label_2);
 		
@@ -180,7 +180,7 @@ public class SignatureFile extends JFrame {
 			}
 		});
 		rdbtnSHA256withRSA.setForeground(new Color(205, 92, 92));
-		rdbtnSHA256withRSA.setFont(new Font("Î¢ÈíÑÅºÚ", Font.BOLD, 18));
+		rdbtnSHA256withRSA.setFont(new Font("å¾®è½¯é›…é»‘", Font.BOLD, 18));
 		rdbtnSHA256withRSA.setBounds(123, 196, 179, 31);
 		contentPane.add(rdbtnSHA256withRSA);
 		
@@ -194,7 +194,7 @@ public class SignatureFile extends JFrame {
 			}
 		});
 		rdbtnSHA224withRSA.setForeground(new Color(255, 165, 0));
-		rdbtnSHA224withRSA.setFont(new Font("Î¢ÈíÑÅºÚ", Font.BOLD, 18));
+		rdbtnSHA224withRSA.setFont(new Font("å¾®è½¯é›…é»‘", Font.BOLD, 18));
 		rdbtnSHA224withRSA.setBounds(322, 196, 179, 31);
 		contentPane.add(rdbtnSHA224withRSA);
 		
@@ -208,7 +208,7 @@ public class SignatureFile extends JFrame {
 			}
 		});
 		rdbtnShawithdsa_384.setForeground(new Color(124, 252, 0));
-		rdbtnShawithdsa_384.setFont(new Font("Î¢ÈíÑÅºÚ", Font.BOLD, 18));
+		rdbtnShawithdsa_384.setFont(new Font("å¾®è½¯é›…é»‘", Font.BOLD, 18));
 		rdbtnShawithdsa_384.setBounds(123, 239, 179, 31);
 		contentPane.add(rdbtnShawithdsa_384);
 		
@@ -222,25 +222,25 @@ public class SignatureFile extends JFrame {
 			}
 		});
 		rdbtnShawithdsa_512.setForeground(new Color(135, 206, 250));
-		rdbtnShawithdsa_512.setFont(new Font("Î¢ÈíÑÅºÚ", Font.BOLD, 18));
+		rdbtnShawithdsa_512.setFont(new Font("å¾®è½¯é›…é»‘", Font.BOLD, 18));
 		rdbtnShawithdsa_512.setBounds(322, 239, 179, 31);
 		contentPane.add(rdbtnShawithdsa_512);
 		
 		JLabel label_3 = new JLabel("\uFF08\u4E00\u79CD\u5373\u53EF\uFF09");
 		label_3.setForeground(new Color(135, 206, 235));
-		label_3.setFont(new Font("Á¥Êé", Font.PLAIN, 16));
+		label_3.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 16));
 		label_3.setBounds(231, 162, 107, 23);
 		contentPane.add(label_3);
 		
 		JLabel lblyourkeystore = new JLabel("\u8BF7\u5148\u8F93\u5165YourKeyStore\u6587\u4EF6\u7684\u5BC6\u7801\uFF1A");
 		lblyourkeystore.setForeground(new Color(135, 206, 235));
-		lblyourkeystore.setFont(new Font("Á¥Êé", Font.PLAIN, 24));
+		lblyourkeystore.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 24));
 		lblyourkeystore.setBounds(30, 324, 424, 40);
 		contentPane.add(lblyourkeystore);
 		
 		JLabel lblyourkeystore_1 = new JLabel("\uFF08\u7528\u4E8E\u4E4B\u540E\u6253\u5F00YourKeyStore\u6587\u4EF6\u67E5\u770B\u4F60\u7684\u5BC6\u94A5\u5BF9\uFF09");
 		lblyourkeystore_1.setForeground(new Color(135, 206, 235));
-		lblyourkeystore_1.setFont(new Font("Á¥Êé", Font.PLAIN, 16));
+		lblyourkeystore_1.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 16));
 		lblyourkeystore_1.setBounds(410, 330, 370, 27);
 		contentPane.add(lblyourkeystore_1);
 		
@@ -250,7 +250,7 @@ public class SignatureFile extends JFrame {
 		
 		JLabel lblyourkeystore_2 = new JLabel("\u8BF7\u518D\u6B21\u8F93\u5165YourKeyStore\u6587\u4EF6\u7684\u5BC6\u7801\uFF1A");
 		lblyourkeystore_2.setForeground(new Color(135, 206, 235));
-		lblyourkeystore_2.setFont(new Font("Á¥Êé", Font.PLAIN, 24));
+		lblyourkeystore_2.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 24));
 		lblyourkeystore_2.setBounds(30, 411, 424, 40);
 		contentPane.add(lblyourkeystore_2);
 		
@@ -260,7 +260,7 @@ public class SignatureFile extends JFrame {
 		
 		JLabel label_4 = new JLabel("\u8BF7\u9009\u62E9\u7B7E\u540D\u7B97\u6CD5\u7684\u52A0\u5BC6\u5F3A\u5EA6\uFF1A");
 		label_4.setForeground(new Color(135, 206, 235));
-		label_4.setFont(new Font("Á¥Êé", Font.PLAIN, 24));
+		label_4.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 24));
 		label_4.setBounds(30, 494, 424, 40);
 		contentPane.add(label_4);
 		
@@ -276,19 +276,19 @@ public class SignatureFile extends JFrame {
 		
 		JLabel label_5 = new JLabel("\u4E00\u822C");
 		label_5.setForeground(new Color(135, 206, 235));
-		label_5.setFont(new Font("Á¥Êé", Font.BOLD, 14));
+		label_5.setFont(new Font("éš¶ä¹¦", Font.BOLD, 14));
 		label_5.setBounds(400, 538, 54, 15);
 		contentPane.add(label_5);
 		
 		JLabel label_6 = new JLabel("\u5F3A");
 		label_6.setForeground(new Color(124, 252, 0));
-		label_6.setFont(new Font("Á¥Êé", Font.BOLD, 15));
+		label_6.setFont(new Font("éš¶ä¹¦", Font.BOLD, 15));
 		label_6.setBounds(510, 538, 54, 15);
 		contentPane.add(label_6);
 		
 		JLabel label_7 = new JLabel("\u5F88\u5F3A");
 		label_7.setForeground(new Color(255, 0, 0));
-		label_7.setFont(new Font("Á¥Êé", Font.BOLD, 15));
+		label_7.setFont(new Font("éš¶ä¹¦", Font.BOLD, 15));
 		label_7.setBounds(599, 538, 54, 15);
 		contentPane.add(label_7);
 		
@@ -300,7 +300,7 @@ public class SignatureFile extends JFrame {
 				if(Arrays.equals(passWord1,passWord2))
 				{
 				try {
-					//°´ÕÕÑ¡ÔñÉú³ÉÈıÖÖÃÜÔ¿¶Ô
+					//æŒ‰ç…§é€‰æ‹©ç”Ÿæˆä¸‰ç§å¯†é’¥å¯¹
 					KeyPairGenerator keyPairGeneratorDSA = null;
 					KeyPairGenerator keyPairGeneratorRSA=null;
 					
@@ -328,23 +328,23 @@ public class SignatureFile extends JFrame {
 					keypair=keyPairGeneratorDSA.generateKeyPair();
 					privateKey=keypair.getPrivate();
 					
-					//ÏÈÉú³É×ÔÇ©ÃûÖ¤Êé
+					//å…ˆç”Ÿæˆè‡ªç­¾åè¯ä¹¦
 					String subjectDN = "CN = su OU = cauc O = cauc L = tj S = tj C = cn";
 					
-					String signatureAlgorithm="SHA224WithDSA";           //ËùÓÃµÄÇ©ÃûËã·¨Ãû
+					String signatureAlgorithm="SHA224WithDSA";           //æ‰€ç”¨çš„ç­¾åç®—æ³•å
 					
-					//Êı×ÖÖ¤ÊéÉú³É²¢µ¼³ö
+					//æ•°å­—è¯ä¹¦ç”Ÿæˆå¹¶å¯¼å‡º
 					Certificate certificate = GenerateCert.selfSign(keypair, subjectDN, signatureAlgorithm);
 					//System.out.println(certificate);
 					PemWriter pemWriter = new PemWriter(new BufferedWriter(new OutputStreamWriter(new FileOutputStream(textFieldFilePath.getText()+"224DSAa.cer"))));
 
-	                //µ¼³öÖ¤Êé
+	                //å¯¼å‡ºè¯ä¹¦
 					pemWriter.writeObject(new PemObject("CERTIFICATE", certificate.getEncoded()));
 
 					pemWriter.close();
 
 					
-					//µ¼³öÃÜÔ¿¶Ôµ½ÃÜÔ¿¿âÎÄ¼ş
+					//å¯¼å‡ºå¯†é’¥å¯¹åˆ°å¯†é’¥åº“æ–‡ä»¶
 					KeyStore keyStore = KeyStore.getInstance("JCEKS");
 					keyStore.load(null, passWord1);
 					keyStore.setKeyEntry("mydsakey", keypair.getPrivate().getEncoded(),new Certificate[] { certificate } );
@@ -352,7 +352,7 @@ public class SignatureFile extends JFrame {
 					keyStore.store(fos, passWord1);				
 					fos.close();
 					
-					JOptionPane.showMessageDialog(null, "ÒÑÎªÄãÉú³ÉÒ»¸öDSAÃÜÔ¿¶Ô£¬²¢ÒÔÊı×ÖÖ¤ÊéµÄĞÎÊ½´æµ½ÁËÇ©ÃûÎÄ¼şÄ¿Â¼ÏÂ£¬ÃÜÔ¿¿âÎÄ¼şÃÜÂëÎªÄã¸Õ²ÅÊäµÄÃÜÂë£¡");
+					JOptionPane.showMessageDialog(null, "å·²ä¸ºä½ ç”Ÿæˆä¸€ä¸ªDSAå¯†é’¥å¯¹ï¼Œå¹¶ä»¥æ•°å­—è¯ä¹¦çš„å½¢å¼å­˜åˆ°äº†ç­¾åæ–‡ä»¶ç›®å½•ä¸‹ï¼Œå¯†é’¥åº“æ–‡ä»¶å¯†ç ä¸ºä½ åˆšæ‰è¾“çš„å¯†ç ï¼");
 					
 			  }
 				
@@ -377,24 +377,24 @@ public class SignatureFile extends JFrame {
 				keypair=keyPairGeneratorDSA.generateKeyPair();
 				privateKey=keypair.getPrivate();
 				
-				//ÏÈÉú³É×ÔÇ©ÃûÖ¤Êé
+				//å…ˆç”Ÿæˆè‡ªç­¾åè¯ä¹¦
 				String subjectDN = "CN = su OU = cauc O = cauc L = tj S = tj C = cn";
 				
-				String signatureAlgorithm="SHA224WithDSA";           //ËùÓÃµÄÇ©ÃûËã·¨Ãû
+				String signatureAlgorithm="SHA224WithDSA";           //æ‰€ç”¨çš„ç­¾åç®—æ³•å
 				
-				//Êı×ÖÖ¤ÊéÉú³É²¢µ¼³ö
+				//æ•°å­—è¯ä¹¦ç”Ÿæˆå¹¶å¯¼å‡º
 				Certificate certificate = GenerateCert.selfSign(keypair, subjectDN, signatureAlgorithm);
 				//System.out.println(certificate);
 				PemWriter pemWriter = new PemWriter(new BufferedWriter(new OutputStreamWriter(new FileOutputStream(textFieldFilePath.getText()+"512DSAa.cer"))));
 
-                //µ¼³öÖ¤Êé
+                //å¯¼å‡ºè¯ä¹¦
 
 				pemWriter.writeObject(new PemObject("CERTIFICATE", certificate.getEncoded()));
 
 				pemWriter.close();
 
 				
-				//µ¼³öÃÜÔ¿¶Ôµ½ÃÜÔ¿¿âÎÄ¼ş
+				//å¯¼å‡ºå¯†é’¥å¯¹åˆ°å¯†é’¥åº“æ–‡ä»¶
 				KeyStore keyStore = KeyStore.getInstance("JCEKS");
 				keyStore.load(null, passWord1);
 				keyStore.setKeyEntry("mydsakey", keypair.getPrivate().getEncoded(),new Certificate[] { certificate } );
@@ -402,7 +402,7 @@ public class SignatureFile extends JFrame {
 				keyStore.store(fos, passWord1);				
 				fos.close();
 				
-				JOptionPane.showMessageDialog(null, "ÒÑÎªÄãÉú³ÉÒ»¸öDSAÃÜÔ¿¶Ô£¬²¢ÒÔÊı×ÖÖ¤ÊéµÄĞÎÊ½´æµ½ÁËÇ©ÃûÎÄ¼şÄ¿Â¼ÏÂ£¬ÃÜÔ¿¿âÎÄ¼şÃÜÂëÎªÄã¸Õ²ÅÊäµÄÃÜÂë£¡");
+				JOptionPane.showMessageDialog(null, "å·²ä¸ºä½ ç”Ÿæˆä¸€ä¸ªDSAå¯†é’¥å¯¹ï¼Œå¹¶ä»¥æ•°å­—è¯ä¹¦çš„å½¢å¼å­˜åˆ°äº†ç­¾åæ–‡ä»¶ç›®å½•ä¸‹ï¼Œå¯†é’¥åº“æ–‡ä»¶å¯†ç ä¸ºä½ åˆšæ‰è¾“çš„å¯†ç ï¼");
 				
 			}
 			
@@ -427,23 +427,23 @@ public class SignatureFile extends JFrame {
 				keypair=keyPairGeneratorRSA.generateKeyPair();
 				privateKey=keypair.getPrivate();
 				
-				//ÏÈÉú³É×ÔÇ©ÃûÖ¤Êé
+				//å…ˆç”Ÿæˆè‡ªç­¾åè¯ä¹¦
 				String subjectDN = "CN = su OU = cauc O = cauc L = tj S = tj C = cn";
 				
-				String signatureAlgorithm="SHA224WithRSA";           //ËùÓÃµÄÇ©ÃûËã·¨Ãû
+				String signatureAlgorithm="SHA224WithRSA";           //æ‰€ç”¨çš„ç­¾åç®—æ³•å
 				
-				//Êı×ÖÖ¤ÊéÉú³É²¢µ¼³ö
+				//æ•°å­—è¯ä¹¦ç”Ÿæˆå¹¶å¯¼å‡º
 				Certificate certificate = GenerateCert.selfSign(keypair, subjectDN, signatureAlgorithm);
 				//System.out.println(certificate);
 				PemWriter pemWriter = new PemWriter(new BufferedWriter(new OutputStreamWriter(new FileOutputStream(textFieldFilePath.getText()+"256RSAa.cer"))));
 
-                //µ¼³öÖ¤Êé
+                //å¯¼å‡ºè¯ä¹¦
 				pemWriter.writeObject(new PemObject("CERTIFICATE", certificate.getEncoded()));
 
 				pemWriter.close();
 
 				
-				//µ¼³öÃÜÔ¿¶Ôµ½ÃÜÔ¿¿âÎÄ¼ş
+				//å¯¼å‡ºå¯†é’¥å¯¹åˆ°å¯†é’¥åº“æ–‡ä»¶
 				KeyStore keyStore = KeyStore.getInstance("JCEKS");
 				keyStore.load(null, passWord1);
 				keyStore.setKeyEntry("myrsakey", keypair.getPrivate().getEncoded(),new Certificate[] { certificate } );
@@ -451,7 +451,7 @@ public class SignatureFile extends JFrame {
 				keyStore.store(fos, passWord1);				
 				fos.close();
 				
-				JOptionPane.showMessageDialog(null, "ÒÑÎªÄãÉú³ÉÒ»¸öRSAÃÜÔ¿¶Ô£¬²¢ÒÔÊı×ÖÖ¤ÊéµÄĞÎÊ½´æµ½ÁËÇ©ÃûÎÄ¼şÄ¿Â¼ÏÂ£¬ÃÜÔ¿¿âÎÄ¼şÃÜÂëÎªÄã¸Õ²ÅÊäµÄÃÜÂë£¡");
+				JOptionPane.showMessageDialog(null, "å·²ä¸ºä½ ç”Ÿæˆä¸€ä¸ªRSAå¯†é’¥å¯¹ï¼Œå¹¶ä»¥æ•°å­—è¯ä¹¦çš„å½¢å¼å­˜åˆ°äº†ç­¾åæ–‡ä»¶ç›®å½•ä¸‹ï¼Œå¯†é’¥åº“æ–‡ä»¶å¯†ç ä¸ºä½ åˆšæ‰è¾“çš„å¯†ç ï¼");
 				
 			}
 			if(rdbtnSHA224withRSA.isSelected())
@@ -475,24 +475,24 @@ public class SignatureFile extends JFrame {
 				keypair=keyPairGeneratorRSA.generateKeyPair();
 				privateKey=keypair.getPrivate();
 				
-				//ÏÈÉú³É×ÔÇ©ÃûÖ¤Êé
+				//å…ˆç”Ÿæˆè‡ªç­¾åè¯ä¹¦
 				String subjectDN = "CN = su OU = cauc O = cauc L = tj S = tj C = cn";
 				
-				String signatureAlgorithm="SHA224WithRSA";           //ËùÓÃµÄÇ©ÃûËã·¨Ãû
+				String signatureAlgorithm="SHA224WithRSA";           //æ‰€ç”¨çš„ç­¾åç®—æ³•å
 				
-				//Êı×ÖÖ¤ÊéÉú³É²¢µ¼³ö
+				//æ•°å­—è¯ä¹¦ç”Ÿæˆå¹¶å¯¼å‡º
 				Certificate certificate = GenerateCert.selfSign(keypair, subjectDN, signatureAlgorithm);
 				//System.out.println(certificate);
 				PemWriter pemWriter = new PemWriter(new BufferedWriter(new OutputStreamWriter(new FileOutputStream(textFieldFilePath.getText()+"224RSAa.cer"))));
 
-                //µ¼³öÖ¤Êé
+                //å¯¼å‡ºè¯ä¹¦
 
 				pemWriter.writeObject(new PemObject("CERTIFICATE", certificate.getEncoded()));
 
 				pemWriter.close();
 
 				
-				//µ¼³öÃÜÔ¿¶Ôµ½ÃÜÔ¿¿âÎÄ¼ş
+				//å¯¼å‡ºå¯†é’¥å¯¹åˆ°å¯†é’¥åº“æ–‡ä»¶
 				KeyStore keyStore = KeyStore.getInstance("JCEKS");
 				keyStore.load(null, passWord1);
 				keyStore.setKeyEntry("myecdsakey", keypair.getPrivate().getEncoded(),new Certificate[] { certificate } );
@@ -500,7 +500,7 @@ public class SignatureFile extends JFrame {
 				keyStore.store(fos, passWord1);				
 				fos.close();
 				
-				JOptionPane.showMessageDialog(null, "ÒÑÎªÄãÉú³ÉÒ»¸öRSAÃÜÔ¿¶Ô£¬²¢ÒÔÊı×ÖÖ¤ÊéµÄĞÎÊ½´æµ½ÁËÇ©ÃûÎÄ¼şÄ¿Â¼ÏÂ£¬ÃÜÔ¿¿âÎÄ¼şÃÜÂëÎªÄã¸Õ²ÅÊäµÄÃÜÂë£¡");
+				JOptionPane.showMessageDialog(null, "å·²ä¸ºä½ ç”Ÿæˆä¸€ä¸ªRSAå¯†é’¥å¯¹ï¼Œå¹¶ä»¥æ•°å­—è¯ä¹¦çš„å½¢å¼å­˜åˆ°äº†ç­¾åæ–‡ä»¶ç›®å½•ä¸‹ï¼Œå¯†é’¥åº“æ–‡ä»¶å¯†ç ä¸ºä½ åˆšæ‰è¾“çš„å¯†ç ï¼");
 				
 			}
 
@@ -511,7 +511,7 @@ public class SignatureFile extends JFrame {
 							String fileName=textFieldFilePath.getText();
 							String signFileName=fileName;
 							FileInputStream fis;
-							fis = new FileInputStream(fileName);//ÊäÈëÁ÷
+							fis = new FileInputStream(fileName);//è¾“å…¥æµ
 							
 							
 							if(rdbtnSHA256withRSA.isSelected())
@@ -534,7 +534,7 @@ public class SignatureFile extends JFrame {
 							     
 							       fosSHA224withDSA.close();
 							       
-							       JOptionPane.showMessageDialog(null, "Ç©ÃûÍê³É£¬Ç©ÃûÎÄ¼ş´æÔÚÔ­ÎÄ¼şÄ¿Â¼ÏÂ£¡");
+							       JOptionPane.showMessageDialog(null, "ç­¾åå®Œæˆï¼Œç­¾åæ–‡ä»¶å­˜åœ¨åŸæ–‡ä»¶ç›®å½•ä¸‹ï¼");
 
 							}
 							if(rdbtnSHA224withRSA.isSelected())
@@ -555,7 +555,7 @@ public class SignatureFile extends JFrame {
 								       FileOutputStream fosSHA256withDSA=new FileOutputStream(signFileName);
 								       fosSHA256withDSA.write(signValue); 
 								       fosSHA256withDSA.close();
-								       JOptionPane.showMessageDialog(null, "Ç©ÃûÍê³É£¬Ç©ÃûÎÄ¼ş´æÔÚÔ­ÎÄ¼şÄ¿Â¼ÏÂ£¡");
+								       JOptionPane.showMessageDialog(null, "ç­¾åå®Œæˆï¼Œç­¾åæ–‡ä»¶å­˜åœ¨åŸæ–‡ä»¶ç›®å½•ä¸‹ï¼");
 							}
 							if(rdbtnShawithdsa_384.isSelected())
 							{
@@ -575,7 +575,7 @@ public class SignatureFile extends JFrame {
 								       FileOutputStream fosSHA384withDSA=new FileOutputStream(signFileName);
 								       fosSHA384withDSA.write(signValue); 
 								       fosSHA384withDSA.close();
-								       JOptionPane.showMessageDialog(null, "Ç©ÃûÍê³É£¬Ç©ÃûÎÄ¼ş´æÔÚÔ­ÎÄ¼şÄ¿Â¼ÏÂ£¡");
+								       JOptionPane.showMessageDialog(null, "ç­¾åå®Œæˆï¼Œç­¾åæ–‡ä»¶å­˜åœ¨åŸæ–‡ä»¶ç›®å½•ä¸‹ï¼");
 							}
 							if(rdbtnShawithdsa_512.isSelected())
 							{
@@ -595,7 +595,7 @@ public class SignatureFile extends JFrame {
 								       FileOutputStream fosSHA512withDSA=new FileOutputStream(signFileName);
 								       fosSHA512withDSA.write(signValue); 
 								       fosSHA512withDSA.close();
-								       JOptionPane.showMessageDialog(null, "Ç©ÃûÍê³É£¬Ç©ÃûÎÄ¼ş´æÔÚÔ­ÎÄ¼şÄ¿Â¼ÏÂ£¡");
+								       JOptionPane.showMessageDialog(null, "ç­¾åå®Œæˆï¼Œç­¾åæ–‡ä»¶å­˜åœ¨åŸæ–‡ä»¶ç›®å½•ä¸‹ï¼");
 							}
 							fis.close();
 					} catch (HeadlessException e1) {
@@ -603,37 +603,37 @@ public class SignatureFile extends JFrame {
 						e1.printStackTrace();
 					} catch (FileNotFoundException e1) {
 						// TODO Auto-generated catch block
-						 JOptionPane.showMessageDialog(null, "ÎÄ¼ş¶ÁÈ¡³ö´í£¡");
+						 JOptionPane.showMessageDialog(null, "æ–‡ä»¶è¯»å–å‡ºé”™ï¼");
 						e1.printStackTrace();
 					} catch (NoSuchAlgorithmException e1) {
 						// TODO Auto-generated catch block
-						 JOptionPane.showMessageDialog(null, "Ëã·¨Ñ¡Ôñ³ö´í£¡");
+						 JOptionPane.showMessageDialog(null, "ç®—æ³•é€‰æ‹©å‡ºé”™ï¼");
 						e1.printStackTrace();
 					} catch (SignatureException e1) {
 						// TODO Auto-generated catch block
-						 JOptionPane.showMessageDialog(null, "Ç©Ãû³ö´í£¡");
+						 JOptionPane.showMessageDialog(null, "ç­¾åå‡ºé”™ï¼");
 						e1.printStackTrace();
 					} catch (IOException e1) {
 						// TODO Auto-generated catch block
-						 JOptionPane.showMessageDialog(null, "ÊäÈëÊä³ö³ö´í£¡");
+						 JOptionPane.showMessageDialog(null, "è¾“å…¥è¾“å‡ºå‡ºé”™ï¼");
 						e1.printStackTrace();
 					}
 					}else {
-					JOptionPane.showMessageDialog(null, "ÇëÑ¡ÔñĞèÒªÇ©ÃûµÄÎÄ¼ş£¡");
+					JOptionPane.showMessageDialog(null, "è¯·é€‰æ‹©éœ€è¦ç­¾åçš„æ–‡ä»¶ï¼");
 					      }
 				} catch (HeadlessException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
 				} catch (InvalidKeyException e1) {
 					// TODO Auto-generated catch block
-					JOptionPane.showMessageDialog(null, "ÃÜÔ¿³ö´í£¡");
+					JOptionPane.showMessageDialog(null, "å¯†é’¥å‡ºé”™ï¼");
 					e1.printStackTrace();
 				} catch (NoSuchAlgorithmException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
 				} catch (KeyStoreException e1) {
 					// TODO Auto-generated catch block
-					JOptionPane.showMessageDialog(null, "ÃÜÔ¿¿âÎÄ¼şÉú³É³ö´í£¡");
+					JOptionPane.showMessageDialog(null, "å¯†é’¥åº“æ–‡ä»¶ç”Ÿæˆå‡ºé”™ï¼");
 					e1.printStackTrace();
 				} catch (CertificateException e1) {
 					// TODO Auto-generated catch block
@@ -651,14 +651,14 @@ public class SignatureFile extends JFrame {
 			}
 				
 				else{
-					JOptionPane.showMessageDialog(null, "Á½´ÎÊäÈëµÄÃÜÂë²»Ò»ÖÂ£¬ÇëÖØĞÂÊäÈë£¡");
+					JOptionPane.showMessageDialog(null, "ä¸¤æ¬¡è¾“å…¥çš„å¯†ç ä¸ä¸€è‡´ï¼Œè¯·é‡æ–°è¾“å…¥ï¼");
 				}
 			}
 		});
 		btnSignButton.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 		btnSignButton.setBackground(SystemColor.control);
 		btnSignButton.setForeground(new Color(32, 178, 170));
-		btnSignButton.setFont(new Font("Á¥Êé", Font.PLAIN, 26));
+		btnSignButton.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 26));
 		btnSignButton.setBounds(155, 646, 166, 48);
 		contentPane.add(btnSignButton);
 		
@@ -671,24 +671,24 @@ public class SignatureFile extends JFrame {
 			}
 		});
 		btnBackButton.setForeground(new Color(135, 206, 235));
-		btnBackButton.setFont(new Font("Á¥Êé", Font.PLAIN, 20));
+		btnBackButton.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 20));
 		btnBackButton.setBounds(463, 658, 116, 30);
 		contentPane.add(btnBackButton);
 		
 		JLabel lblyourfilesigntxt = new JLabel("\uFF08\u8BE5\u6587\u4EF6\u7684\u7B7E\u540D\u503C\u5B58\u5728\u5F53\u524D\u76EE\u5F55\u4E0BYourFileSign.txt\u6587\u4EF6\u4E2D\uFF09");
 		lblyourfilesigntxt.setForeground(new Color(135, 206, 235));
-		lblyourfilesigntxt.setFont(new Font("Á¥Êé", Font.PLAIN, 16));
+		lblyourfilesigntxt.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 16));
 		lblyourfilesigntxt.setBounds(165, 704, 440, 23);
 		contentPane.add(lblyourfilesigntxt);
 		
 		JLabel label_8 = new JLabel("\u8BE5\u6587\u4EF6\u7684\u7B7E\u540D\u503C\u4E3A\uFF1A");
 		label_8.setForeground(new Color(135, 206, 235));
-		label_8.setFont(new Font("Á¥Êé", Font.PLAIN, 24));
+		label_8.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 24));
 		label_8.setBounds(30, 544, 335, 40);
 		contentPane.add(label_8);
 		
 		textFieldSignValue = new JTextField();
-		textFieldSignValue.setFont(new Font("Î¢ÈíÑÅºÚ", Font.PLAIN, 10));
+		textFieldSignValue.setFont(new Font("å¾®è½¯é›…é»‘", Font.PLAIN, 10));
 		textFieldSignValue.setBackground(new Color(224, 255, 255));
 		textFieldSignValue.setColumns(10);
 		textFieldSignValue.setBounds(30, 588, 610, 31);
@@ -697,7 +697,7 @@ public class SignatureFile extends JFrame {
 }
 
 class GenerateCert {
-	// Éú³É×ÔÇ©ÃûÊı×ÖÖ¤Êé
+	// ç”Ÿæˆè‡ªç­¾åæ•°å­—è¯ä¹¦
 	   public static Certificate selfSign(KeyPair keyPair, String subjectDN, String signatureAlgorithm) throws Exception {
 		BouncyCastleProvider bcProvider = new BouncyCastleProvider();
 		Security.addProvider(bcProvider);

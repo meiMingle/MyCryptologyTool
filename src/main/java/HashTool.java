@@ -102,13 +102,13 @@ public class HashTool extends JFrame {
 		JLabel label = new JLabel("\u8F93\u5165\u5B57\u7B26\u4E32\uFF1A");
 		label.setForeground(new Color(51, 153, 204));
 		label.setHorizontalAlignment(SwingConstants.CENTER);
-		label.setFont(new Font("·½ÕıÊæÌå", Font.PLAIN, 23));
+		label.setFont(new Font("æ–¹æ­£èˆ’ä½“", Font.PLAIN, 23));
 		label.setBounds(41, 97, 144, 31);
 		contentPane.add(label);
 		
 		JLabel label_1 = new JLabel("\u8F93\u51FA\u7ED3\u679C\uFF1A");
 		label_1.setForeground(new Color(51, 153, 204));
-		label_1.setFont(new Font("·½ÕıÊæÌå", Font.PLAIN, 23));
+		label_1.setFont(new Font("æ–¹æ­£èˆ’ä½“", Font.PLAIN, 23));
 		label_1.setBounds(41, 181, 115, 27);
 		contentPane.add(label_1);
 		
@@ -122,14 +122,14 @@ public class HashTool extends JFrame {
        
        
 		JButton btnBack = new JButton("\u8FD4\u56DE");
-		btnBack.setFont(new Font("Á¥Êé", Font.PLAIN, 18));
+		btnBack.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 18));
 		btnBack.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 		btnBack.setBorder(new LineBorder(new Color(102, 153, 204)));
 		btnBack.setForeground(new Color(135, 206, 235));
 		btnBack.setBackground(new Color(245, 245, 245));
 		btnBack.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				hashTool.dispose();//¹Ø±Õµ±Ç°´°¿Ú
+				hashTool.dispose();//å…³é—­å½“å‰çª—å£
 			}
 		});
 		
@@ -139,21 +139,21 @@ public class HashTool extends JFrame {
 		
 		chckbxMD5 = new JCheckBox("MD5");
 		chckbxMD5.setEnabled(false);
-		chckbxMD5.setFont(new Font("ËÎÌå", Font.PLAIN, 15));
+		chckbxMD5.setFont(new Font("å®‹ä½“", Font.PLAIN, 15));
 		chckbxMD5.setBackground(SystemColor.control);
 		chckbxMD5.setForeground(Color.LIGHT_GRAY);
 		chckbxMD5.setBounds(63, 229, 52, 23);
 		contentPane.add(chckbxMD5);
 		
 		chckbxSHA3_224 = new JCheckBox("SHA3-224");
-		chckbxSHA3_224.setFont(new Font("ËÎÌå", Font.PLAIN, 15));
+		chckbxSHA3_224.setFont(new Font("å®‹ä½“", Font.PLAIN, 15));
 		chckbxSHA3_224.setForeground(new Color(153, 153, 255));
 		chckbxSHA3_224.setBackground(SystemColor.control);
 		chckbxSHA3_224.setBounds(64, 268, 103, 23);
 		contentPane.add(chckbxSHA3_224);
 		
 		textFieldMD5 = new JTextField();
-		textFieldMD5.setFont(new Font("Á¥Êé", Font.PLAIN, 12));
+		textFieldMD5.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 12));
 		textFieldMD5.setForeground(Color.LIGHT_GRAY);
 		textFieldMD5.setText("\u6B64\u7B97\u6CD5\u5DF2\u7ECF\u4E0D\u5B89\u5168\uFF0C\u5DF2\u88AB\u820D\u5F03");
 		textFieldMD5.setEditable(false);
@@ -163,7 +163,7 @@ public class HashTool extends JFrame {
 		textFieldMD5.setColumns(10);
 		
 		textFieldSHA3_224 = new JTextField();
-		textFieldSHA3_224.setFont(new Font("Î¢ÈíÑÅºÚ", Font.PLAIN, 10));
+		textFieldSHA3_224.setFont(new Font("å¾®è½¯é›…é»‘", Font.PLAIN, 10));
 		textFieldSHA3_224.setEditable(false);
 		textFieldSHA3_224.setBackground(new Color(255, 240, 245));
 		textFieldSHA3_224.setBounds(178, 269, 618, 21);
@@ -172,60 +172,60 @@ public class HashTool extends JFrame {
 		
 		JLabel lblhash = new JLabel("\u8FD9\u4EC5\u4EC5\u662F\u4E00\u4E2A\u4F60\u81EA\u5DF1\u505A\u7684HASH\u503C\u8BA1\u7B97\u5668\uFF01");
 		lblhash.setForeground(new Color(51, 153, 204));
-		lblhash.setFont(new Font("»ªÎÄĞÂÎº", Font.PLAIN, 26));
+		lblhash.setFont(new Font("åæ–‡æ–°é­", Font.PLAIN, 26));
 		lblhash.setBounds(169, 40, 492, 31);
 		contentPane.add(lblhash);
 		
 		JCheckBox chckbxSHA3_256 = new JCheckBox("SHA3-256");
-		chckbxSHA3_256.setFont(new Font("ËÎÌå", Font.PLAIN, 15));
+		chckbxSHA3_256.setFont(new Font("å®‹ä½“", Font.PLAIN, 15));
 		chckbxSHA3_256.setForeground(new Color(153, 102, 255));
 		chckbxSHA3_256.setBounds(64, 306, 103, 23);
 		contentPane.add(chckbxSHA3_256);
 		
 		JCheckBox chckbxSHA3_384 = new JCheckBox("SHA3-384");
-		chckbxSHA3_384.setFont(new Font("ËÎÌå", Font.PLAIN, 15));
+		chckbxSHA3_384.setFont(new Font("å®‹ä½“", Font.PLAIN, 15));
 		chckbxSHA3_384.setForeground(new Color(51, 204, 255));
 		chckbxSHA3_384.setBounds(64, 340, 103, 23);
 		contentPane.add(chckbxSHA3_384);
 		
 		JCheckBox chckbxSHA3_512 = new JCheckBox("SHA3-512");
-		chckbxSHA3_512.setFont(new Font("ËÎÌå", Font.PLAIN, 15));
+		chckbxSHA3_512.setFont(new Font("å®‹ä½“", Font.PLAIN, 15));
 		chckbxSHA3_512.setForeground(new Color(0, 153, 153));
 		chckbxSHA3_512.setBounds(64, 381, 103, 23);
 		contentPane.add(chckbxSHA3_512);
 		
 		JCheckBox chckbxSHA_224 = new JCheckBox("SHA-224");
-		chckbxSHA_224.setFont(new Font("ËÎÌå", Font.PLAIN, 15));
+		chckbxSHA_224.setFont(new Font("å®‹ä½“", Font.PLAIN, 15));
 		chckbxSHA_224.setForeground(new Color(255, 153, 255));
 		chckbxSHA_224.setBounds(64, 421, 103, 23);
 		contentPane.add(chckbxSHA_224);
 		
 		JCheckBox chckbxSHA_256 = new JCheckBox("SHA-256");
-		chckbxSHA_256.setFont(new Font("ËÎÌå", Font.PLAIN, 15));
+		chckbxSHA_256.setFont(new Font("å®‹ä½“", Font.PLAIN, 15));
 		chckbxSHA_256.setForeground(new Color(255, 102, 0));
 		chckbxSHA_256.setBounds(64, 457, 103, 23);
 		contentPane.add(chckbxSHA_256);
 		
 		JCheckBox chckbxSHA_384 = new JCheckBox("SHA-384");
-		chckbxSHA_384.setFont(new Font("ËÎÌå", Font.PLAIN, 15));
+		chckbxSHA_384.setFont(new Font("å®‹ä½“", Font.PLAIN, 15));
 		chckbxSHA_384.setForeground(new Color(102, 204, 153));
 		chckbxSHA_384.setBounds(64, 493, 103, 23);
 		contentPane.add(chckbxSHA_384);
 		
 		JCheckBox chckbxSHA_512 = new JCheckBox("SHA-512");
-		chckbxSHA_512.setFont(new Font("ËÎÌå", Font.PLAIN, 15));
+		chckbxSHA_512.setFont(new Font("å®‹ä½“", Font.PLAIN, 15));
 		chckbxSHA_512.setForeground(new Color(204, 51, 102));
 		chckbxSHA_512.setBounds(64, 530, 93, 23);
 		contentPane.add(chckbxSHA_512);
 		
 		JCheckBox chckbxSHA1 = new JCheckBox("SHA1");
-		chckbxSHA1.setFont(new Font("ËÎÌå", Font.PLAIN, 15));
+		chckbxSHA1.setFont(new Font("å®‹ä½“", Font.PLAIN, 15));
 		chckbxSHA1.setForeground(new Color(204, 153, 255));
 		chckbxSHA1.setBounds(64, 569, 84, 23);
 		contentPane.add(chckbxSHA1);
 		
 		textFieldSHA3_256 = new JTextField();
-		textFieldSHA3_256.setFont(new Font("Î¢ÈíÑÅºÚ", Font.PLAIN, 10));
+		textFieldSHA3_256.setFont(new Font("å¾®è½¯é›…é»‘", Font.PLAIN, 10));
 		textFieldSHA3_256.setEditable(false);
 		textFieldSHA3_256.setBackground(new Color(255, 245, 238));
 		textFieldSHA3_256.setBounds(176, 307, 620, 21);
@@ -233,7 +233,7 @@ public class HashTool extends JFrame {
 		textFieldSHA3_256.setColumns(10);
 		
 		textFieldSHA3_384 = new JTextField();
-		textFieldSHA3_384.setFont(new Font("Î¢ÈíÑÅºÚ", Font.PLAIN, 10));
+		textFieldSHA3_384.setFont(new Font("å¾®è½¯é›…é»‘", Font.PLAIN, 10));
 		textFieldSHA3_384.setEditable(false);
 		textFieldSHA3_384.setBackground(new Color(255, 240, 245));
 		textFieldSHA3_384.setBounds(176, 344, 620, 21);
@@ -241,7 +241,7 @@ public class HashTool extends JFrame {
 		textFieldSHA3_384.setColumns(10);
 		
 		textFieldSHA3_512 = new JTextField();
-		textFieldSHA3_512.setFont(new Font("Î¢ÈíÑÅºÚ", Font.PLAIN, 10));
+		textFieldSHA3_512.setFont(new Font("å¾®è½¯é›…é»‘", Font.PLAIN, 10));
 		textFieldSHA3_512.setEditable(false);
 		textFieldSHA3_512.setBackground(new Color(255, 240, 245));
 		textFieldSHA3_512.setBounds(177, 383, 619, 21);
@@ -249,7 +249,7 @@ public class HashTool extends JFrame {
 		textFieldSHA3_512.setColumns(10);
 		
 		textFieldSHA_224 = new JTextField();
-		textFieldSHA_224.setFont(new Font("Î¢ÈíÑÅºÚ", Font.PLAIN, 10));
+		textFieldSHA_224.setFont(new Font("å¾®è½¯é›…é»‘", Font.PLAIN, 10));
 		textFieldSHA_224.setEditable(false);
 		textFieldSHA_224.setBackground(new Color(255, 240, 245));
 		textFieldSHA_224.setBounds(177, 422, 619, 21);
@@ -257,7 +257,7 @@ public class HashTool extends JFrame {
 		textFieldSHA_224.setColumns(10);
 		
 		textFieldSHA_256 = new JTextField();
-		textFieldSHA_256.setFont(new Font("Î¢ÈíÑÅºÚ", Font.PLAIN, 10));
+		textFieldSHA_256.setFont(new Font("å¾®è½¯é›…é»‘", Font.PLAIN, 10));
 		textFieldSHA_256.setEditable(false);
 		textFieldSHA_256.setBackground(new Color(255, 240, 245));
 		textFieldSHA_256.setBounds(176, 458, 620, 21);
@@ -265,7 +265,7 @@ public class HashTool extends JFrame {
 		textFieldSHA_256.setColumns(10);
 		
 		textFieldSHA_384 = new JTextField();
-		textFieldSHA_384.setFont(new Font("Î¢ÈíÑÅºÚ", Font.PLAIN, 10));
+		textFieldSHA_384.setFont(new Font("å¾®è½¯é›…é»‘", Font.PLAIN, 10));
 		textFieldSHA_384.setEditable(false);
 		textFieldSHA_384.setBackground(new Color(255, 240, 245));
 		textFieldSHA_384.setBounds(178, 493, 618, 21);
@@ -273,7 +273,7 @@ public class HashTool extends JFrame {
 		textFieldSHA_384.setColumns(10);
 		
 		textFieldSHA_512 = new JTextField();
-		textFieldSHA_512.setFont(new Font("Î¢ÈíÑÅºÚ", Font.PLAIN, 10));
+		textFieldSHA_512.setFont(new Font("å¾®è½¯é›…é»‘", Font.PLAIN, 10));
 		textFieldSHA_512.setEditable(false);
 		textFieldSHA_512.setBackground(new Color(255, 240, 245));
 		textFieldSHA_512.setBounds(178, 531, 618, 21);
@@ -281,7 +281,7 @@ public class HashTool extends JFrame {
 		textFieldSHA_512.setColumns(10);
 		
 		textFieldSHA1 = new JTextField();
-		textFieldSHA1.setFont(new Font("Î¢ÈíÑÅºÚ", Font.PLAIN, 10));
+		textFieldSHA1.setFont(new Font("å¾®è½¯é›…é»‘", Font.PLAIN, 10));
 		textFieldSHA1.setEditable(false);
 		textFieldSHA1.setBackground(new Color(255, 245, 238));
 		textFieldSHA1.setBounds(179, 570, 617, 21);
@@ -290,19 +290,19 @@ public class HashTool extends JFrame {
 		
 		JLabel lblNewLabel = new JLabel("\u52A0\u5BC6\u6587\u4EF6\u9009\u62E9\uFF1A");
 		lblNewLabel.setForeground(new Color(51, 153, 204));
-		lblNewLabel.setFont(new Font("»ªÎÄĞÂÎº", Font.PLAIN, 22));
+		lblNewLabel.setFont(new Font("åæ–‡æ–°é­", Font.PLAIN, 22));
 		lblNewLabel.setBounds(41, 140, 165, 31);
 		contentPane.add(lblNewLabel);
 		
 		JLabel lblhashhash = new JLabel("\uFF08\u6587\u4EF6\u7684HASH\u540E\u4F1A\u5728\u539F\u76EE\u5F55\u4E0B\u751F\u6210\u5BF9\u5E94HASH\u7B97\u6CD5\u4F5C\u4E3A\u6587\u4EF6\u540D\u79F0\u7684\u6458\u8981\uFF09");
-		lblhashhash.setFont(new Font("»ªÎÄĞÂÎº", Font.PLAIN, 14));
+		lblhashhash.setFont(new Font("åæ–‡æ–°é­", Font.PLAIN, 14));
 		lblhashhash.setForeground(new Color(0, 153, 204));
 		lblhashhash.setBounds(143, 181, 458, 36);
 		contentPane.add(lblhashhash);
 		
 		Label label_2 = new Label("\uFF08\u5DF2\u5931\u6548\uFF09");
 		label_2.setForeground(Color.RED);
-		label_2.setFont(new Font("Á¥Êé", Font.PLAIN, 12));
+		label_2.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 12));
 		label_2.setBounds(107, 229, 61, 23);
 		contentPane.add(label_2);
 		
@@ -317,7 +317,7 @@ public class HashTool extends JFrame {
 		btnFilePath.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 		btnFilePath.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				JFileChooser fileChooser  =new JFileChooser("²âÊÔ\\Hash²âÊÔ");
+				JFileChooser fileChooser  =new JFileChooser("æµ‹è¯•\\Hashæµ‹è¯•");
 				if(fileChooser.showOpenDialog(null)==JFileChooser.APPROVE_OPTION)
 				{
 					textFieldFilePath.setText(fileChooser.getSelectedFile().getPath());
@@ -330,7 +330,7 @@ public class HashTool extends JFrame {
 		contentPane.add(btnFilePath);
 		
 		JButton btnClose = new JButton("\u6E05\u7A7A");
-		btnClose.setFont(new Font("Á¥Êé", Font.PLAIN, 18));
+		btnClose.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 18));
 		btnClose.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 		btnClose.setBorder(new LineBorder(new Color(51, 153, 204)));
 		btnClose.setForeground(new Color(135, 206, 235));
@@ -379,7 +379,7 @@ public class HashTool extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				
 				try {
-			 if(checkBoxInPutMassage.isSelected())           //×Ö·û´®²»Îª¿ÕÊ±Îª×Ö·û´®½øĞĞÏûÏ¢ÕªÒª
+			 if(checkBoxInPutMassage.isSelected())           //å­—ç¬¦ä¸²ä¸ä¸ºç©ºæ—¶ä¸ºå­—ç¬¦ä¸²è¿›è¡Œæ¶ˆæ¯æ‘˜è¦
 			{
 				 boolean selectjudge=false;
 				/*	if(chckbxMD5.isSelected())
@@ -388,7 +388,7 @@ public class HashTool extends JFrame {
 					byte[] msg=textFieldInPutMassage.getText().getBytes();
 					
 					md.update(msg);
-					//¿É¶à´Îupdate,hashÖµÎª×ÛºÏÏûÏ¢µÄ¹şÏ£Öµ
+					//å¯å¤šæ¬¡update,hashå€¼ä¸ºç»¼åˆæ¶ˆæ¯çš„å“ˆå¸Œå€¼
 					
 					byte[] digestvalue=md.digest();
 					textFieldMD5.setText(Hex.toHexString(digestvalue).toUpperCase());
@@ -401,7 +401,7 @@ public class HashTool extends JFrame {
 						byte[] msg=textFieldInPutMassage.getText().getBytes();
 						
 						md.update(msg);
-						//¿É¶à´Îupdate,hashÖµÎª×ÛºÏÏûÏ¢µÄ¹şÏ£Öµ
+						//å¯å¤šæ¬¡update,hashå€¼ä¸ºç»¼åˆæ¶ˆæ¯çš„å“ˆå¸Œå€¼
 						
 						byte[] digestvalue=md.digest();
 						textFieldSHA3_224.setText(Hex.toHexString(digestvalue).toUpperCase());
@@ -413,7 +413,7 @@ public class HashTool extends JFrame {
 						byte[] msg=textFieldInPutMassage.getText().getBytes();
 						
 						md.update(msg);
-						//¿É¶à´Îupdate,hashÖµÎª×ÛºÏÏûÏ¢µÄ¹şÏ£Öµ
+						//å¯å¤šæ¬¡update,hashå€¼ä¸ºç»¼åˆæ¶ˆæ¯çš„å“ˆå¸Œå€¼
 						
 						byte[] digestvalue=md.digest();
 						textFieldSHA3_256.setText(Hex.toHexString(digestvalue).toUpperCase());
@@ -425,7 +425,7 @@ public class HashTool extends JFrame {
 						byte[] msg=textFieldInPutMassage.getText().getBytes();
 						
 						md.update(msg);
-						//¿É¶à´Îupdate,hashÖµÎª×ÛºÏÏûÏ¢µÄ¹şÏ£Öµ
+						//å¯å¤šæ¬¡update,hashå€¼ä¸ºç»¼åˆæ¶ˆæ¯çš„å“ˆå¸Œå€¼
 						
 						byte[] digestvalue=md.digest();
 						textFieldSHA3_384.setText(Hex.toHexString(digestvalue).toUpperCase());
@@ -437,7 +437,7 @@ public class HashTool extends JFrame {
 						byte[] msg=textFieldInPutMassage.getText().getBytes();
 						
 						md.update(msg);
-						//¿É¶à´Îupdate,hashÖµÎª×ÛºÏÏûÏ¢µÄ¹şÏ£Öµ
+						//å¯å¤šæ¬¡update,hashå€¼ä¸ºç»¼åˆæ¶ˆæ¯çš„å“ˆå¸Œå€¼
 						
 						byte[] digestvalue=md.digest();
 						textFieldSHA3_512.setText(Hex.toHexString(digestvalue).toUpperCase());
@@ -449,7 +449,7 @@ public class HashTool extends JFrame {
 						byte[] msg=textFieldInPutMassage.getText().getBytes();
 						
 						md.update(msg);
-						//¿É¶à´Îupdate,hashÖµÎª×ÛºÏÏûÏ¢µÄ¹şÏ£Öµ
+						//å¯å¤šæ¬¡update,hashå€¼ä¸ºç»¼åˆæ¶ˆæ¯çš„å“ˆå¸Œå€¼
 						
 						byte[] digestvalue=md.digest();
 						textFieldSHA_224.setText(Hex.toHexString(digestvalue).toUpperCase());
@@ -461,7 +461,7 @@ public class HashTool extends JFrame {
 						byte[] msg=textFieldInPutMassage.getText().getBytes();
 						
 						md.update(msg);
-						//¿É¶à´Îupdate,hashÖµÎª×ÛºÏÏûÏ¢µÄ¹şÏ£Öµ
+						//å¯å¤šæ¬¡update,hashå€¼ä¸ºç»¼åˆæ¶ˆæ¯çš„å“ˆå¸Œå€¼
 						
 						byte[] digestvalue=md.digest();
 						textFieldSHA_256.setText(Hex.toHexString(digestvalue).toUpperCase());
@@ -473,7 +473,7 @@ public class HashTool extends JFrame {
 						byte[] msg=textFieldInPutMassage.getText().getBytes();
 						
 						md.update(msg);
-						//¿É¶à´Îupdate,hashÖµÎª×ÛºÏÏûÏ¢µÄ¹şÏ£Öµ
+						//å¯å¤šæ¬¡update,hashå€¼ä¸ºç»¼åˆæ¶ˆæ¯çš„å“ˆå¸Œå€¼
 						
 						byte[] digestvalue=md.digest();
 						textFieldSHA_384.setText(Hex.toHexString(digestvalue).toUpperCase());
@@ -485,7 +485,7 @@ public class HashTool extends JFrame {
 						byte[] msg=textFieldInPutMassage.getText().getBytes();
 						
 						md.update(msg);
-						//¿É¶à´Îupdate,hashÖµÎª×ÛºÏÏûÏ¢µÄ¹şÏ£Öµ
+						//å¯å¤šæ¬¡update,hashå€¼ä¸ºç»¼åˆæ¶ˆæ¯çš„å“ˆå¸Œå€¼
 						
 						byte[] digestvalue=md.digest();
 						textFieldSHA_512.setText(Hex.toHexString(digestvalue).toUpperCase());
@@ -497,14 +497,14 @@ public class HashTool extends JFrame {
 						byte[] msg=textFieldInPutMassage.getText().getBytes();
 						
 						md.update(msg);
-						//¿É¶à´Îupdate,hashÖµÎª×ÛºÏÏûÏ¢µÄ¹şÏ£Öµ
+						//å¯å¤šæ¬¡update,hashå€¼ä¸ºç»¼åˆæ¶ˆæ¯çš„å“ˆå¸Œå€¼
 						
 						byte[] digestvalue=md.digest();
 						textFieldSHA1.setText(Hex.toHexString(digestvalue).toUpperCase());
 					}
 					if(!selectjudge)
 					{
-						JOptionPane.showMessageDialog(null, "ÇëÑ¡ÔñËã·¨£¡£¡£¡");
+						JOptionPane.showMessageDialog(null, "è¯·é€‰æ‹©ç®—æ³•ï¼ï¼ï¼");
 					}
 			}
 				} catch (NoSuchAlgorithmException e1) {
@@ -520,7 +520,7 @@ public class HashTool extends JFrame {
 
 					FileInputStream fis;
 
-					fis = new FileInputStream(fileName);//ÊäÈëÁ÷£¬Í¨ÓÃÒ»¸ö
+					fis = new FileInputStream(fileName);//è¾“å…¥æµï¼Œé€šç”¨ä¸€ä¸ª
 					
 					boolean selectjudge=false;
 					if(chckbxSHA3_224.isSelected())
@@ -540,7 +540,7 @@ public class HashTool extends JFrame {
 							hashFileName=hashFileName+"SHA3-224.txt";
 							FileOutputStream fos =new FileOutputStream(hashFileName);
 							fos.write(Hex.toHexString(digestvalue).toUpperCase().getBytes());
-							fos.close();                           //Êä³öÁ÷¹Ø±Õ
+							fos.close();                           //è¾“å‡ºæµå…³é—­
 					}
 					if(chckbxSHA3_256.isSelected())
 					{
@@ -559,7 +559,7 @@ public class HashTool extends JFrame {
 						hashFileName=hashFileName+"SHA3-256.txt";
 						FileOutputStream fos =new FileOutputStream(hashFileName);
 						fos.write(Hex.toHexString(digestvalue).toUpperCase().getBytes());
-						fos.close();                           //Êä³öÁ÷¹Ø±Õ
+						fos.close();                           //è¾“å‡ºæµå…³é—­
 					}
 					if(chckbxSHA3_384.isSelected())
 					{
@@ -578,7 +578,7 @@ public class HashTool extends JFrame {
 						hashFileName=hashFileName+"SHA3-384.txt";
 						FileOutputStream fos =new FileOutputStream(hashFileName);
 						fos.write(Hex.toHexString(digestvalue).toUpperCase().getBytes());
-						fos.close();                           //Êä³öÁ÷¹Ø±Õ
+						fos.close();                           //è¾“å‡ºæµå…³é—­
 					}
 					if(chckbxSHA3_512.isSelected())
 					{
@@ -597,7 +597,7 @@ public class HashTool extends JFrame {
 						hashFileName=hashFileName+"SHA3-512.txt";
 						FileOutputStream fos =new FileOutputStream(hashFileName);
 						fos.write(Hex.toHexString(digestvalue).toUpperCase().getBytes());
-						fos.close();                           //Êä³öÁ÷¹Ø±Õ
+						fos.close();                           //è¾“å‡ºæµå…³é—­
 					}
 					if(chckbxSHA_224.isSelected())
 					{
@@ -616,7 +616,7 @@ public class HashTool extends JFrame {
 						hashFileName=hashFileName+"SHA-224.txt";
 						FileOutputStream fos =new FileOutputStream(hashFileName);
 						fos.write(Hex.toHexString(digestvalue).toUpperCase().getBytes());
-						fos.close();                           //Êä³öÁ÷¹Ø±Õ
+						fos.close();                           //è¾“å‡ºæµå…³é—­
 					}
 					if(chckbxSHA_256.isSelected())
 					{
@@ -635,7 +635,7 @@ public class HashTool extends JFrame {
 						hashFileName=hashFileName+"SHA-256.txt";
 						FileOutputStream fos =new FileOutputStream(hashFileName);
 						fos.write(Hex.toHexString(digestvalue).toUpperCase().getBytes());
-						fos.close();                           //Êä³öÁ÷¹Ø±Õ
+						fos.close();                           //è¾“å‡ºæµå…³é—­
 					}
 					if(chckbxSHA_384.isSelected())
 					{
@@ -654,7 +654,7 @@ public class HashTool extends JFrame {
 						hashFileName=hashFileName+"SHA-384.txt";
 						FileOutputStream fos =new FileOutputStream(hashFileName);
 						fos.write(Hex.toHexString(digestvalue).toUpperCase().getBytes());
-						fos.close();                           //Êä³öÁ÷¹Ø±Õ
+						fos.close();                           //è¾“å‡ºæµå…³é—­
 					}
 					if(chckbxSHA_512.isSelected())
 					{
@@ -673,7 +673,7 @@ public class HashTool extends JFrame {
 						hashFileName=hashFileName+"SHA-512.txt";
 						FileOutputStream fos =new FileOutputStream(hashFileName);
 						fos.write(Hex.toHexString(digestvalue).toUpperCase().getBytes());
-						fos.close();                           //Êä³öÁ÷¹Ø±Õ
+						fos.close();                           //è¾“å‡ºæµå…³é—­
 					}
 					if(chckbxSHA1.isSelected())
 					{
@@ -692,37 +692,37 @@ public class HashTool extends JFrame {
 						hashFileName=hashFileName+"SHA1.txt";
 						FileOutputStream fos =new FileOutputStream(hashFileName);
 						fos.write(Hex.toHexString(digestvalue).toUpperCase().getBytes());
-						fos.close();                           //Êä³öÁ÷¹Ø±Õ
+						fos.close();                           //è¾“å‡ºæµå…³é—­
 					}
 					
-					fis.close();                             //ÊäÈëÁ÷¹Ø±Õ
+					fis.close();                             //è¾“å…¥æµå…³é—­
 					if(selectjudge){
-						JOptionPane.showMessageDialog(null, "ÎÄ¼şÕªÒª³É¹¦£¡(Éú³ÉµÄhashÎÄ¼şÔÚÔ­ÎÄ¼şÄ¿Â¼ÏÂ)");
+						JOptionPane.showMessageDialog(null, "æ–‡ä»¶æ‘˜è¦æˆåŠŸï¼(ç”Ÿæˆçš„hashæ–‡ä»¶åœ¨åŸæ–‡ä»¶ç›®å½•ä¸‹)");
 					}
 					else{
-						JOptionPane.showMessageDialog(null, "ÇëÑ¡ÔñËã·¨£¡£¡£¡");
+						JOptionPane.showMessageDialog(null, "è¯·é€‰æ‹©ç®—æ³•ï¼ï¼ï¼");
 					}
 				} catch (FileNotFoundException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
-					JOptionPane.showMessageDialog(null, "Î´ÕÒµ½ÎÄ¼ş,Ê§°Ü£¡");
+					JOptionPane.showMessageDialog(null, "æœªæ‰¾åˆ°æ–‡ä»¶,å¤±è´¥ï¼");
 				} catch (NoSuchAlgorithmException e1) {
 					// TODO Auto-generated catch block
-					JOptionPane.showMessageDialog(null, "Ã»ÕÒµ½¸ÃËã·¨£¡");
+					JOptionPane.showMessageDialog(null, "æ²¡æ‰¾åˆ°è¯¥ç®—æ³•ï¼");
 					e1.printStackTrace();
 				} catch (IOException e1) {
 					// TODO Auto-generated catch block
-					JOptionPane.showMessageDialog(null, "Êä³öÂ·¾¶ÓĞÎó£¡");
+					JOptionPane.showMessageDialog(null, "è¾“å‡ºè·¯å¾„æœ‰è¯¯ï¼");
 					e1.printStackTrace();
 				}
 			}
 			if((!chckBoxInputFile.isSelected())&(!checkBoxInPutMassage.isSelected()))
 			{
-				JOptionPane.showMessageDialog(null, "Çë¹´Ñ¡²Ù×÷Ïî£¡");
+				JOptionPane.showMessageDialog(null, "è¯·å‹¾é€‰æ“ä½œé¡¹ï¼");
 			}
 			}
 		});
-		btnCalculate.setFont(new Font("Á¥Êé", Font.PLAIN, 18));
+		btnCalculate.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 18));
 		btnCalculate.setBounds(63, 623, 104, 36);
 		contentPane.add(btnCalculate);
 		

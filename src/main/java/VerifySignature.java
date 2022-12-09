@@ -91,7 +91,7 @@ public class VerifySignature extends JFrame {
 		
 		JLabel label = new JLabel("\u8BF7\u8F93\u5165\u9700\u8981\u9A8C\u8BC1\u7B7E\u540D\u7684\u6587\u4EF6\uFF1A");
 		label.setForeground(new Color(135, 206, 250));
-		label.setFont(new Font("Á¥Êé", Font.PLAIN, 24));
+		label.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 24));
 		label.setBounds(22, 70, 324, 34);
 		contentPane.add(label);
 		
@@ -103,7 +103,7 @@ public class VerifySignature extends JFrame {
 		JButton btnFilePathButton = new JButton("...");
 		btnFilePathButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				JFileChooser fileChooser  =new JFileChooser("²âÊÔ\\Ç©Ãû²âÊÔ");
+				JFileChooser fileChooser  =new JFileChooser("æµ‹è¯•\\ç­¾åæµ‹è¯•");
 				if(fileChooser.showOpenDialog(null)==JFileChooser.APPROVE_OPTION)
 				{
 					textFieldFilePath.setText(fileChooser.getSelectedFile().getPath());
@@ -118,7 +118,7 @@ public class VerifySignature extends JFrame {
 		
 		JLabel label_1 = new JLabel("\u8BF7\u786E\u5B9A\u7B7E\u540D\u7684\u7B97\u6CD5\uFF1A");
 		label_1.setForeground(new Color(135, 206, 250));
-		label_1.setFont(new Font("Á¥Êé", Font.PLAIN, 24));
+		label_1.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 24));
 		label_1.setBounds(22, 246, 324, 34);
 		contentPane.add(label_1);
 		
@@ -141,7 +141,7 @@ public class VerifySignature extends JFrame {
 			}
 		});
 		rdbtnSha256withrsa.setForeground(new Color(219, 112, 147));
-		rdbtnSha256withrsa.setFont(new Font("Î¢ÈíÑÅºÚ", Font.BOLD, 18));
+		rdbtnSha256withrsa.setFont(new Font("å¾®è½¯é›…é»‘", Font.BOLD, 18));
 		rdbtnSha256withrsa.setBounds(67, 292, 193, 23);
 		contentPane.add(rdbtnSha256withrsa);
 		
@@ -155,7 +155,7 @@ public class VerifySignature extends JFrame {
 			}
 		});
 		rdbtnSha224withrsa.setForeground(new Color(244, 164, 96));
-		rdbtnSha224withrsa.setFont(new Font("Î¢ÈíÑÅºÚ", Font.BOLD, 18));
+		rdbtnSha224withrsa.setFont(new Font("å¾®è½¯é›…é»‘", Font.BOLD, 18));
 		rdbtnSha224withrsa.setBounds(271, 292, 193, 23);
 		contentPane.add(rdbtnSha224withrsa);
 		
@@ -169,7 +169,7 @@ public class VerifySignature extends JFrame {
 			}
 		});
 		rdbtnSha384withdsa.setForeground(new Color(127, 255, 0));
-		rdbtnSha384withdsa.setFont(new Font("Î¢ÈíÑÅºÚ", Font.BOLD, 18));
+		rdbtnSha384withdsa.setFont(new Font("å¾®è½¯é›…é»‘", Font.BOLD, 18));
 		rdbtnSha384withdsa.setBounds(67, 337, 193, 23);
 		contentPane.add(rdbtnSha384withdsa);
 		
@@ -183,13 +183,13 @@ public class VerifySignature extends JFrame {
 			}
 		});
 		rdbtnSha512withdsa.setForeground(new Color(135, 206, 250));
-		rdbtnSha512withdsa.setFont(new Font("Î¢ÈíÑÅºÚ", Font.BOLD, 18));
+		rdbtnSha512withdsa.setFont(new Font("å¾®è½¯é›…é»‘", Font.BOLD, 18));
 		rdbtnSha512withdsa.setBounds(271, 338, 204, 23);
 		contentPane.add(rdbtnSha512withdsa);
 		
 		JLabel label_2 = new JLabel("\u8BF7\u8F93\u5165\u9A8C\u8BC1\u7B7E\u540D\u7684\u516C\u94A5\u7684\u6570\u5B57\u8BC1\u4E66\uFF1A");
 		label_2.setForeground(new Color(135, 206, 250));
-		label_2.setFont(new Font("Á¥Êé", Font.PLAIN, 24));
+		label_2.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 24));
 		label_2.setBounds(22, 366, 394, 34);
 		contentPane.add(label_2);
 		
@@ -201,7 +201,7 @@ public class VerifySignature extends JFrame {
 		JButton btnPublicKeyFilePath = new JButton("...");
 		btnPublicKeyFilePath.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				JFileChooser fileChooser  =new JFileChooser("G:\\¿Î³ÌÏà¹Ø\\ÃÜÂëÑ§Ïà¹Ø\\²âÊÔ\\Ç©Ãû²âÊÔ");
+				JFileChooser fileChooser  =new JFileChooser("G:\\è¯¾ç¨‹ç›¸å…³\\å¯†ç å­¦ç›¸å…³\\æµ‹è¯•\\ç­¾åæµ‹è¯•");
 				if(fileChooser.showOpenDialog(null)==JFileChooser.APPROVE_OPTION)
 				{
 					textFieldPublickey.setText(fileChooser.getSelectedFile().getPath());
@@ -216,12 +216,12 @@ public class VerifySignature extends JFrame {
 		
 		JLabel label_3 = new JLabel("\u9A8C\u8BC1\u7ED3\u679C\uFF1A");
 		label_3.setForeground(new Color(135, 206, 250));
-		label_3.setFont(new Font("Á¥Êé", Font.PLAIN, 24));
+		label_3.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 24));
 		label_3.setBounds(22, 450, 324, 34);
 		contentPane.add(label_3);
 		
 		textFieldResult = new JTextField();
-		textFieldResult.setFont(new Font("Á¥Êé", Font.PLAIN, 18));
+		textFieldResult.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 18));
 		textFieldResult.setBackground(new Color(255, 228, 225));
 		textFieldResult.setEditable(false);
 		textFieldResult.setColumns(10);
@@ -232,7 +232,7 @@ public class VerifySignature extends JFrame {
 		btnbuttonSignValueFilePath.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 	
-			JFileChooser fileChooser  =new JFileChooser("²âÊÔ\\Ç©Ãû²âÊÔ");
+			JFileChooser fileChooser  =new JFileChooser("æµ‹è¯•\\ç­¾åæµ‹è¯•");
 			if(fileChooser.showOpenDialog(null)==JFileChooser.APPROVE_OPTION)
 			{
 				textFieldSignValue.setText(fileChooser.getSelectedFile().getPath());
@@ -248,10 +248,10 @@ public class VerifySignature extends JFrame {
 		btnVerifyButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 					
-				//¶ÁÈ¡Ö¤Êé»ñµÃ¹«Ô¿
+				//è¯»å–è¯ä¹¦è·å¾—å…¬é’¥
 			
 				try {
-					//¶ÁÖ¤ÊéµÃ¹«Ô¿
+					//è¯»è¯ä¹¦å¾—å…¬é’¥
 					String keyFilepath=textFieldPublickey.getText();
 					CertificateFactory certificateFactory=CertificateFactory.getInstance("X.509");
 					FileInputStream fincert=new FileInputStream(keyFilepath);
@@ -262,17 +262,17 @@ public class VerifySignature extends JFrame {
 					PublicKey publickey=x509Certificate.getPublicKey();
 					FileInputStream fisSign=new FileInputStream(textFieldSignValue.getText());
 				
-					//¶ÁÇ©ÃûÖµ
+					//è¯»ç­¾åå€¼
 					int nn=0;
 					byte[] temp=new byte[1024];
 		
-					nn=fisSign.read(temp);//Ç©ÃûÖµ
+					nn=fisSign.read(temp);//ç­¾åå€¼
 					fisSign.close();
 					
 					byte[] signValue=Arrays.copyOf(temp,nn);
 					String fileName=textFieldFilePath.getText();
 					FileInputStream fis;
-					fis = new FileInputStream(fileName);//ÊäÈëÁ÷
+					fis = new FileInputStream(fileName);//è¾“å…¥æµ
 					boolean result=false;
 					
 					
@@ -291,16 +291,16 @@ public class VerifySignature extends JFrame {
 							result=signature.verify(signValue);
 							   if(result)
 							   {
-								   textFieldResult.setText("ÑéÖ¤Í¨¹ı£¡");
+								   textFieldResult.setText("éªŒè¯é€šè¿‡ï¼");
 							   }
 							   else{
-								   textFieldResult.setText("ÑéÖ¤²»Í¨¹ı£¡");
+								   textFieldResult.setText("éªŒè¯ä¸é€šè¿‡ï¼");
 							   }
-							   JOptionPane.showMessageDialog(null, "ÑéÖ¤Íê³É£¡");
+							   JOptionPane.showMessageDialog(null, "éªŒè¯å®Œæˆï¼");
 						} catch (Exception e1) {
 							// TODO Auto-generated catch block
-							 textFieldResult.setText("ÑéÖ¤²»Í¨¹ı£¡");
-							 JOptionPane.showMessageDialog(null, "ÑéÖ¤³ö´í£¬Çë¼ì²é¸÷ÊäÈëºÍËã·¨Ñ¡Ôñ£¡");
+							 textFieldResult.setText("éªŒè¯ä¸é€šè¿‡ï¼");
+							 JOptionPane.showMessageDialog(null, "éªŒè¯å‡ºé”™ï¼Œè¯·æ£€æŸ¥å„è¾“å…¥å’Œç®—æ³•é€‰æ‹©ï¼");
 						}
 
 					}
@@ -319,16 +319,16 @@ public class VerifySignature extends JFrame {
 							result=signature.verify(signValue);
 							   if(result)
 							   {
-								   textFieldResult.setText("ÑéÖ¤Í¨¹ı£¡");
+								   textFieldResult.setText("éªŒè¯é€šè¿‡ï¼");
 							   }
 							   else{
-								   textFieldResult.setText("ÑéÖ¤²»Í¨¹ı£¡");
+								   textFieldResult.setText("éªŒè¯ä¸é€šè¿‡ï¼");
 							   }
-							   JOptionPane.showMessageDialog(null, "ÑéÖ¤Íê³É£¡");
+							   JOptionPane.showMessageDialog(null, "éªŒè¯å®Œæˆï¼");
 						} catch (Exception e1) {
 							// TODO Auto-generated catch block
-							 textFieldResult.setText("ÑéÖ¤²»Í¨¹ı£¡");
-							 JOptionPane.showMessageDialog(null, "ÑéÖ¤³ö´í£¬Çë¼ì²é¸÷ÊäÈëºÍËã·¨Ñ¡Ôñ£¡");
+							 textFieldResult.setText("éªŒè¯ä¸é€šè¿‡ï¼");
+							 JOptionPane.showMessageDialog(null, "éªŒè¯å‡ºé”™ï¼Œè¯·æ£€æŸ¥å„è¾“å…¥å’Œç®—æ³•é€‰æ‹©ï¼");
 						}
 
 					}
@@ -347,16 +347,16 @@ public class VerifySignature extends JFrame {
 							result=signature.verify(signValue);
 							   if(result)
 							   {
-								   textFieldResult.setText("ÑéÖ¤Í¨¹ı£¡");
+								   textFieldResult.setText("éªŒè¯é€šè¿‡ï¼");
 							   }
 							   else{
-								   textFieldResult.setText("ÑéÖ¤²»Í¨¹ı£¡");
+								   textFieldResult.setText("éªŒè¯ä¸é€šè¿‡ï¼");
 							   }
-							   JOptionPane.showMessageDialog(null, "ÑéÖ¤Íê³É£¡");
+							   JOptionPane.showMessageDialog(null, "éªŒè¯å®Œæˆï¼");
 						} catch (Exception e1) {
 							// TODO Auto-generated catch block
-							 textFieldResult.setText("ÑéÖ¤²»Í¨¹ı£¡");
-							 JOptionPane.showMessageDialog(null, "ÑéÖ¤³ö´í£¬Çë¼ì²é¸÷ÊäÈëºÍËã·¨Ñ¡Ôñ£¡");
+							 textFieldResult.setText("éªŒè¯ä¸é€šè¿‡ï¼");
+							 JOptionPane.showMessageDialog(null, "éªŒè¯å‡ºé”™ï¼Œè¯·æ£€æŸ¥å„è¾“å…¥å’Œç®—æ³•é€‰æ‹©ï¼");
 						}
 
 					}
@@ -375,16 +375,16 @@ public class VerifySignature extends JFrame {
 							result=signature.verify(signValue);
 							   if(result)
 							   {
-								   textFieldResult.setText("ÑéÖ¤Í¨¹ı£¡");
+								   textFieldResult.setText("éªŒè¯é€šè¿‡ï¼");
 							   }
 							   else{
-								   textFieldResult.setText("ÑéÖ¤²»Í¨¹ı£¡");
+								   textFieldResult.setText("éªŒè¯ä¸é€šè¿‡ï¼");
 							   }
-							   JOptionPane.showMessageDialog(null, "ÑéÖ¤Íê³É£¡");
+							   JOptionPane.showMessageDialog(null, "éªŒè¯å®Œæˆï¼");
 						} catch (Exception e1) {
 							// TODO Auto-generated catch block
-							 textFieldResult.setText("ÑéÖ¤²»Í¨¹ı£¡");
-							 JOptionPane.showMessageDialog(null, "ÑéÖ¤³ö´í£¬Çë¼ì²é¸÷ÊäÈëºÍËã·¨Ñ¡Ôñ£¡");
+							 textFieldResult.setText("éªŒè¯ä¸é€šè¿‡ï¼");
+							 JOptionPane.showMessageDialog(null, "éªŒè¯å‡ºé”™ï¼Œè¯·æ£€æŸ¥å„è¾“å…¥å’Œç®—æ³•é€‰æ‹©ï¼");
 						}
 					}
 					fis.close();
@@ -394,11 +394,11 @@ public class VerifySignature extends JFrame {
 					e1.printStackTrace();
 				} catch (CertificateException e1) {
 					// TODO Auto-generated catch block
-					JOptionPane.showMessageDialog(null, "Ö¤Êé³ö´í£¡");
+					JOptionPane.showMessageDialog(null, "è¯ä¹¦å‡ºé”™ï¼");
 					e1.printStackTrace();
 				} catch (FileNotFoundException e1) {
 					// TODO Auto-generated catch block
-					JOptionPane.showMessageDialog(null, "ÎÄ¼ş¶ÁÈ¡³ö´í£¡");
+					JOptionPane.showMessageDialog(null, "æ–‡ä»¶è¯»å–å‡ºé”™ï¼");
 					e1.printStackTrace();
 				} catch (IOException e1) {
 					// TODO Auto-generated catch block
@@ -409,7 +409,7 @@ public class VerifySignature extends JFrame {
 		btnVerifyButton.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 		btnVerifyButton.setBackground(new Color(245, 245, 245));
 		btnVerifyButton.setForeground(new Color(173, 216, 230));
-		btnVerifyButton.setFont(new Font("Á¥Êé", Font.PLAIN, 26));
+		btnVerifyButton.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 26));
 		btnVerifyButton.setBounds(125, 568, 145, 43);
 		contentPane.add(btnVerifyButton);
 		
@@ -422,13 +422,13 @@ public class VerifySignature extends JFrame {
 		btnBackButton.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 		btnBackButton.setBackground(new Color(245, 245, 245));
 		btnBackButton.setForeground(new Color(135, 206, 250));
-		btnBackButton.setFont(new Font("Á¥Êé", Font.PLAIN, 20));
+		btnBackButton.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 20));
 		btnBackButton.setBounds(414, 573, 134, 38);
 		contentPane.add(btnBackButton);
 		
 		JLabel label_4 = new JLabel("\u8BF7\u8F93\u5165\u9700\u8981\u9A8C\u8BC1\u7B7E\u540D\u503C\uFF1A");
 		label_4.setForeground(new Color(135, 206, 250));
-		label_4.setFont(new Font("Á¥Êé", Font.PLAIN, 24));
+		label_4.setFont(new Font("éš¶ä¹¦", Font.PLAIN, 24));
 		label_4.setBounds(22, 148, 324, 34);
 		contentPane.add(label_4);
 		
